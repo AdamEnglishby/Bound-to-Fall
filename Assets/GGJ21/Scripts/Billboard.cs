@@ -23,4 +23,5 @@ public class Billboard : MonoBehaviour
         rotation = Quaternion.Euler(rotation.eulerAngles.x, _cameraTransform.rotation.eulerAngles.y - 180, rotation.eulerAngles.z);
         _transform.rotation = rotation;
     }
+    
 }
