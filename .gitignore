@@ -69,6 +69,7 @@ crashlytics-build.properties
 
 # Visual Studio Code cache directory
 .vscode/
+*.vsconfig
 
 # Idea cache directory
 .idea/
