@@ -10,6 +10,7 @@ public class InputHandler : MonoBehaviour
     private Vector2 _moveDirection;
     private float _downVelocity;
 
+    public ParticleSystem speedLines;
     public float gravity = -1;
     public float maxVelocity = -5;
     public float speed = 1;
@@ -26,9 +27,19 @@ public class InputHandler : MonoBehaviour
 
     public void Update()
     {
+        if (_downVelocity <= maxVelocity / 1.5f)
+        {
+            var m = speedLines.emission;
+            m.enabled = true;
+        }
+        else
+        {
+            var m = speedLines.emission;
+            m.enabled = false;
+        }
         // Debug.DrawLine(transform.position, transform.position - new Vector3(0, controller.height / 2 * transform.localScale.y + 0.01f, 0), Color.red);
         
-        if (Physics.Raycast(transform.position, -transform.up, controller.height / 2 * transform.localScale.y + 0.01f))
+        if (Physics.Raycast(transform.position, -transform.up, controller.height / 2 * transform.localScale.y + 0.01f, LayerMask.GetMask("Default")))
         {
             Debug.Log("Grounded!");
             _downVelocity = 0f;
