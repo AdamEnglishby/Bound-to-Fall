@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class InputHandler : MonoBehaviour, InputActions.IActionMapActions
+public class InputHandler : MonoBehaviour
 {
     public void OnSpace(InputAction.CallbackContext context)
     {
@@ -12,4 +12,10 @@ public class InputHandler : MonoBehaviour, InputActions.IActionMapActions
         else if (context.canceled)
             Debug.Log("Action was cancelled");
     }
+
+    public void OnMovement(InputValue value)
+    {
+        Debug.Log(value.Get<Vector2>());
+    }
+    
 }

@@ -6,26 +6,81 @@
             "id": "7d6d0423-b4db-4b0d-b90b-255701b7e69f",
             "actions": [
                 {
-                    "name": "Space",
+                    "name": "Movement",
                     "type": "PassThrough",
-                    "id": "079662ae-76da-4ac6-96b8-faf29f7a7b1c",
-                    "expectedControlType": "Button",
+                    "id": "c1fc893c-821e-4cad-862a-ed172d3f3ee6",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
                 {
                     "name": "",
-                    "id": "2587f74c-7661-4066-b27e-c1140acc081f",
-                    "path": "<Keyboard>/space",
+                    "id": "2df7e317-cc69-4a2b-8627-9bd8afb3231b",
+                    "path": "<Stadia Controller>/leftStick",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Space",
+                    "action": "Movement",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "WASD",
+                    "id": "db8f4de1-48cb-4605-a00e-dd9461c3a453",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "d5dda8d4-557c-4e2b-998b-132c68f18077",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "34cf024b-40f1-4ee3-8bba-aedafce28792",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "fadac18e-160e-4250-8a66-24831a6c1e73",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "718eeccb-96dc-4164-9c75-bd0497429406",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
                 }
             ]
         }

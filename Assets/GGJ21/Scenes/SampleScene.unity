@@ -847,6 +847,10 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 079662ae-76da-4ac6-96b8-faf29f7a7b1c
     m_ActionName: Action Map/Space[/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: c1fc893c-821e-4cad-862a-ed172d3f3ee6
+    m_ActionName: "Action Map/Movement[/\u0FFF USB Receiver/stick,/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]"
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Action Map
