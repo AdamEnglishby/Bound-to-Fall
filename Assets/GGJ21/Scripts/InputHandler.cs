@@ -5,18 +5,48 @@ public class InputHandler : MonoBehaviour
 {
 
     [SerializeField] private CharacterController controller;
-    private Vector2 _moveDirection;
 
+    private Camera _camera;
+    private Vector2 _moveDirection;
+    private float _downVelocity;
+
+    public float gravity = -1;
+    public float maxVelocity = -5;
     public float speed = 1;
-    
+
+    private void Awake()
+    {
+        _camera = Camera.main;
+    }
+
     public void OnMovement(InputValue value)
     {
         _moveDirection = value.Get<Vector2>();
     }
 
-    public void FixedUpdate()
+    public void Update()
     {
-        Debug.Log(_moveDirection);
-        controller.Move(new Vector3(_moveDirection.x, 0, _moveDirection.y) * Time.fixedDeltaTime * speed);
+        // Debug.DrawLine(transform.position, transform.position - new Vector3(0, controller.height / 2 * transform.localScale.y + 0.01f, 0), Color.red);
+        
+        if (Physics.Raycast(transform.position, -transform.up, controller.height / 2 * transform.localScale.y + 0.01f))
+        {
+            Debug.Log("Grounded!");
+            _downVelocity = 0f;
+        }
+        else
+        {
+            Debug.Log("Falling!");
+            if (_downVelocity >= maxVelocity)
+            {
+                _downVelocity += gravity;
+            }
+        }
+
+        var transformedInput = _camera.transform.TransformDirection(_moveDirection);
+        var moveDir = new Vector3(transformedInput.x, 0, transformedInput.y) * speed;
+        moveDir.y = _downVelocity;
+        
+        controller.Move(moveDir * Time.deltaTime);
     }
+    
 }
