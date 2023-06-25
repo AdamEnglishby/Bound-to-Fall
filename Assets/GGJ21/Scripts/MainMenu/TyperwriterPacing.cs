@@ -40,7 +40,6 @@ public class TyperwriterPacing : MonoBehaviour
             if (control == null || control.synthetic || control.noisy)
                 continue;
             if (!control.ReadValueFromEvent(eventPtr, out var value) || !(value >= buttonPressPoint)) continue;
-            Debug.Log("Pressed");
             InputSystem.onEvent -= InputEvent;
             SceneManager.LoadScene(sceneName: "SampleScene");
             break;

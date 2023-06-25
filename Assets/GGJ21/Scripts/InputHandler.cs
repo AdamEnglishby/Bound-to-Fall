@@ -41,12 +41,10 @@ public class InputHandler : MonoBehaviour
         
         if (Physics.Raycast(transform.position, -transform.up, controller.height / 2 * transform.localScale.y + 0.01f, LayerMask.GetMask("Default")))
         {
-            Debug.Log("Grounded!");
             _downVelocity = 0f;
         }
         else
         {
-            Debug.Log("Falling!");
             if (_downVelocity >= maxVelocity)
             {
                 _downVelocity += gravity;

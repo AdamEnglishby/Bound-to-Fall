@@ -5430,7 +5430,7 @@ MonoBehaviour:
     type: 2}
   databaseActions: {fileID: 11400000, guid: 6c266d0f459220740babb14f9f7a9789, type: 2}
   defaultAppearancesTags:
-  - size
+  - fade
   defaultDisappearancesTags: []
   defaultBehaviorsTags: []
   defaultTagsMode: 0
