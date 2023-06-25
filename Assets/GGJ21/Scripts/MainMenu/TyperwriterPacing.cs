@@ -9,6 +9,7 @@ using UnityEngine.SceneManagement;
 public class TyperwriterPacing : MonoBehaviour
 {
     public TypewriterByCharacter line1, line2, tagline, pressAnyButton;
+    public GameObject faderImage;
 
     private IEnumerator Start()
     {
@@ -25,7 +26,7 @@ public class TyperwriterPacing : MonoBehaviour
         InputSystem.onEvent += InputEvent;
     }
 
-    private static void InputEvent(InputEventPtr eventPtr, InputDevice device)
+    private void InputEvent(InputEventPtr eventPtr, InputDevice device)
     {
         if (!eventPtr.IsA<StateEvent>() && !eventPtr.IsA<DeltaStateEvent>())
         {
@@ -41,8 +42,16 @@ public class TyperwriterPacing : MonoBehaviour
                 continue;
             if (!control.ReadValueFromEvent(eventPtr, out var value) || !(value >= buttonPressPoint)) continue;
             InputSystem.onEvent -= InputEvent;
-            SceneManager.LoadScene(sceneName: "SampleScene");
+            StartCoroutine(FadeScene());
             break;
         }
     }
+
+    private IEnumerator FadeScene()
+    {
+        faderImage.SetActive(true);
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene("SampleScene");
+    }
+    
 }

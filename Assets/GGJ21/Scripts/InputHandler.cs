@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class InputHandler : MonoBehaviour
@@ -15,14 +16,26 @@ public class InputHandler : MonoBehaviour
     public float maxVelocity = -5;
     public float speed = 1;
 
+    public bool movementEnabled = false;
+
     private void Awake()
     {
         _camera = Camera.main;
+        StartCoroutine(EnableInput());
+    }
+
+    private IEnumerator EnableInput()
+    {
+        yield return new WaitForSeconds(2);
+        movementEnabled = true;
     }
 
     public void OnMovement(InputValue value)
     {
-        _moveDirection = value.Get<Vector2>();
+        if (movementEnabled)
+        {
+            _moveDirection = value.Get<Vector2>();
+        }
     }
 
     public void Update()
