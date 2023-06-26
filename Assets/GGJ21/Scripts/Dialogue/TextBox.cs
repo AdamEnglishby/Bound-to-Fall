@@ -1,12 +1,13 @@
 ﻿using Febucci.UI;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 
 [CreateAssetMenu(menuName = "GGJ21/Text Box")]
 public class TextBox : ScriptableObject
 {
 
-    [HideInInspector] public bool isShown, isInProgress;
+    [HideInInspector] public bool isShown;
     public string[] lines;
     private int _currentLine;
 
@@ -16,7 +17,6 @@ public class TextBox : ScriptableObject
         isShown = true;
         _currentLine = 0;
         text.GetComponent<TMP_Text>().text = lines[_currentLine];
-        isInProgress = true;
     }
 
     public bool HasNext => _currentLine < lines.Length - 1;
@@ -24,7 +24,6 @@ public class TextBox : ScriptableObject
     public void FinishInstantly(TypewriterByCharacter text)
     {
         text.SkipTypewriter();
-        isInProgress = false;
     }
     
     public void Next(TypewriterByCharacter text)
@@ -33,13 +32,11 @@ public class TextBox : ScriptableObject
         {
             _currentLine++;
             text.GetComponent<TMP_Text>().text = lines[_currentLine];
-            isInProgress = true;
         }
     }
 
     public void Hide(TypewriterByCharacter text)
     {
-        isInProgress = false;
         isShown = false;
         text.GetComponent<TMP_Text>().text = "";
         text.SkipTypewriter();
