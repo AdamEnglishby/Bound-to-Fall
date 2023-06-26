@@ -5214,8 +5214,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Bound to
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9c5dad9d25b137148adb0cdbb928c9e8, type: 2}
-  m_sharedMaterial: {fileID: -5861970519388525676, guid: 9c5dad9d25b137148adb0cdbb928c9e8,
+  m_fontAsset: {fileID: 11400000, guid: b2fdb1b23b0a4f642868414b9b3d8f92, type: 2}
+  m_sharedMaterial: {fileID: 6190648112290207528, guid: b2fdb1b23b0a4f642868414b9b3d8f92,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -5398,7 +5398,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 101, y: -310}
+  m_AnchoredPosition: {x: 101, y: -350}
   m_SizeDelta: {x: 300, y: 50}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &937665376
@@ -5421,7 +5421,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: By Team #2
+  m_text: By Kitchen Team
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 37778fe0e992df64a8e168d835d5ac50, type: 2}
   m_sharedMaterial: {fileID: 2576693364337769678, guid: 37778fe0e992df64a8e168d835d5ac50,
@@ -5793,8 +5793,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 89.4, y: -74}
-  m_SizeDelta: {x: 300, y: 150}
+  m_AnchoredPosition: {x: 89.4, y: -180}
+  m_SizeDelta: {x: 500, y: 150}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1315655937
 MonoBehaviour:
@@ -5820,8 +5820,8 @@ MonoBehaviour:
 
     Fall'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9c5dad9d25b137148adb0cdbb928c9e8, type: 2}
-  m_sharedMaterial: {fileID: -5861970519388525676, guid: 9c5dad9d25b137148adb0cdbb928c9e8,
+  m_fontAsset: {fileID: 11400000, guid: b2fdb1b23b0a4f642868414b9b3d8f92, type: 2}
+  m_sharedMaterial: {fileID: 6190648112290207528, guid: b2fdb1b23b0a4f642868414b9b3d8f92,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}

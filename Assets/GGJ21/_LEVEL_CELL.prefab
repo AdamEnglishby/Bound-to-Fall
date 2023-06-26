@@ -186,7 +186,7 @@ GameObject:
   - component: {fileID: 4996406291479437358}
   - component: {fileID: 1123907742826570640}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: FLOOR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -488,7 +488,7 @@ Transform:
   - {fileID: 4714897171138457344}
   - {fileID: 1140619748768378382}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8769024496533077268
 GameObject:
@@ -557,5 +557,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  roomToSpawn: {fileID: 6358708206848290097}
+  roomToSpawn: {fileID: 8728372484422069170, guid: 9fa27b953f2b2994b849b8691ee53eba,
+    type: 3}
   spawnLocation: {x: 0, y: -30, z: 0}

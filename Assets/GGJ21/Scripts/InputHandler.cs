@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using Cinemachine;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -17,6 +18,7 @@ public class InputHandler : MonoBehaviour
     public float speed = 1;
 
     public bool movementEnabled = false;
+    public CinemachineVirtualCamera startCamera;
 
     private void Awake()
     {
@@ -26,6 +28,8 @@ public class InputHandler : MonoBehaviour
 
     private IEnumerator EnableInput()
     {
+        yield return new WaitForSeconds(0.1f);
+        startCamera.Priority = -1;
         yield return new WaitForSeconds(2);
         movementEnabled = true;
     }
