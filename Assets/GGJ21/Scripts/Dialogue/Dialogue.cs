@@ -36,6 +36,12 @@ public class Dialogue : MonoBehaviour
     {
         if (!value.isPressed) return;
         
+        if(_currentTextBox.isInProgress)
+        {
+            _currentTextBox.FinishInstantly(FindObjectOfType<Dialogue>().text);
+            return;
+        }
+        
         if (_currentTextBox.HasNext)
         {
             _currentTextBox.Next(FindObjectOfType<Dialogue>().text);
