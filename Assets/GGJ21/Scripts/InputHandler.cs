@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using Cinemachine;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -11,6 +12,13 @@ public class InputHandler : MonoBehaviour
     private Camera _camera;
     private Vector2 _moveDirection;
     private float _downVelocity;
+
+    private static event Action<InputValue> PrimaryButtonPressed;
+    public static Action<InputValue> OnPrimaryButtonPressed
+    {
+        get => PrimaryButtonPressed;
+        set => PrimaryButtonPressed = value;
+    }
 
     public ParticleSystem speedLines;
     public float gravity = -1;
@@ -40,6 +48,11 @@ public class InputHandler : MonoBehaviour
         {
             _moveDirection = value.Get<Vector2>();
         }
+    }
+    
+    public void OnPrimaryButton(InputValue value)
+    {
+        PrimaryButtonPressed?.Invoke(value);
     }
 
     public void Update()

@@ -210,7 +210,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   m_LocalRotation: {x: 0.2689891, y: -0.36610436, z: 0.11141892, w: 0.88385427}
-  m_LocalPosition: {x: 11, y: 12.25, z: -11}
+  m_LocalPosition: {x: 22, y: 23.75, z: -22}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -614,7 +614,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &750908691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -751,7 +751,7 @@ GameObject:
   - component: {fileID: 762256403}
   - component: {fileID: 762256402}
   m_Layer: 5
-  m_Name: Press any button...
+  m_Name: Text Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -869,7 +869,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Hello my dear friend. Are you comfortable?
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 37778fe0e992df64a8e168d835d5ac50, type: 2}
   m_sharedMaterial: {fileID: 2576693364337769678, guid: 37778fe0e992df64a8e168d835d5ac50,
@@ -1113,6 +1113,7 @@ GameObject:
   - component: {fileID: 1201690129}
   - component: {fileID: 1201690130}
   - component: {fileID: 1201690132}
+  - component: {fileID: 1201690133}
   m_Layer: 3
   m_Name: Player
   m_TagString: Untagged
@@ -1245,6 +1246,21 @@ CharacterController:
   m_SkinWidth: 0.0001
   m_MinMoveDistance: 0
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1201690133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201690122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 515864197fce453397cf4209e62bf541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  openingConversation: {fileID: 11400000, guid: c03fea4d208de7c4ebe14db199191961,
+    type: 2}
+  text: {fileID: 762256402}
 --- !u!1 &1238527049
 GameObject:
   m_ObjectHideFlags: 0

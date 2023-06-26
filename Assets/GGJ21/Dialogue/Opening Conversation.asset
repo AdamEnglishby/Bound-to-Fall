@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77e640aaa0c5455883e2ecc15a0e5e34, type: 3}
+  m_Name: Opening Conversation
+  m_EditorClassIdentifier: 
+  isShown: 0
+  lines:
+  - Hello my dear friend. Are you comfortable?
+  - I do hope the restraints are not too... restrictive. For you.
