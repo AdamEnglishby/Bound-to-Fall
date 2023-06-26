@@ -24,10 +24,7 @@ public class Dialogue : MonoBehaviour
         }
         _currentTextBox = box;
         FindObjectOfType<Dialogue>().text.gameObject.SetActive(true);
-        if (!_currentTextBox.isShown)
-        {
-            _currentTextBox.Show(FindObjectOfType<Dialogue>().text);
-        }
+        _currentTextBox.Show(FindObjectOfType<Dialogue>().text);
 
         InputHandler.OnPrimaryButtonPressed += AdvanceText;
     }

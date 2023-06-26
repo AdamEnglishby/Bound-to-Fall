@@ -8,6 +8,7 @@ public class InputHandler : MonoBehaviour
 {
 
     [SerializeField] private CharacterController controller;
+    [SerializeField] private Animator animator;
 
     private Camera _camera;
     private Vector2 _moveDirection;
@@ -27,6 +28,8 @@ public class InputHandler : MonoBehaviour
 
     public bool movementEnabled = false;
     public CinemachineVirtualCamera startCamera;
+    
+    private static readonly int Running = Animator.StringToHash("Running");
 
     private void Awake()
     {
@@ -57,6 +60,7 @@ public class InputHandler : MonoBehaviour
 
     public void Update()
     {
+        animator.SetBool(Running, _moveDirection.magnitude > 0.05f);
         if (_downVelocity <= maxVelocity / 1.5f)
         {
             var m = speedLines.emission;
