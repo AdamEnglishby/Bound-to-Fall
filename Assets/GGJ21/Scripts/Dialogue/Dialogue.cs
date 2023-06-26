@@ -23,12 +23,12 @@ public class Dialogue : MonoBehaviour
             _currentTextBox.Hide(FindObjectOfType<Dialogue>().text);
         }
         _currentTextBox = box;
+        FindObjectOfType<Dialogue>().text.gameObject.SetActive(true);
         if (!_currentTextBox.isShown)
         {
             _currentTextBox.Show(FindObjectOfType<Dialogue>().text);
         }
 
-        Debug.Log("Waiting for input...");
         InputHandler.OnPrimaryButtonPressed += AdvanceText;
     }
 
@@ -42,7 +42,6 @@ public class Dialogue : MonoBehaviour
         }
         else
         {
-            Debug.Log("No longer listening for input!");
             _currentTextBox.Hide(FindObjectOfType<Dialogue>().text);
             InputHandler.OnPrimaryButtonPressed -= AdvanceText;
         }

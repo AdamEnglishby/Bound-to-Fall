@@ -12,6 +12,7 @@ public class TextBox : ScriptableObject
 
     public void Show(TypewriterByCharacter text)
     {
+        text.gameObject.SetActive(true);
         isShown = true;
         _currentLine = 0;
         text.GetComponent<TMP_Text>().text = lines[_currentLine];
