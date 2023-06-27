@@ -13,13 +13,13 @@ public class TyperwriterPacing : MonoBehaviour
 
     private IEnumerator Start()
     {
-        yield return new WaitForSeconds(1);
-        line1.gameObject.SetActive(true);
-        yield return new WaitForSeconds(2.1f);
-        line2.gameObject.SetActive(true);
-        yield return new WaitForSeconds(2);
-        tagline.gameObject.SetActive(true);
         yield return new WaitForSeconds(1f);
+        line1.gameObject.SetActive(true);
+        yield return new WaitForSeconds(0.75f);
+        line2.gameObject.SetActive(true);
+        yield return new WaitForSeconds(1f);
+        tagline.gameObject.SetActive(true);
+        yield return new WaitForSeconds(2f);
         pressAnyButton.gameObject.SetActive(true);
         yield return new WaitForSeconds(0.5f);
 
