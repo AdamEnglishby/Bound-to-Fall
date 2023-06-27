@@ -16,7 +16,7 @@ public class TextBox : ScriptableObject
         text.gameObject.SetActive(true);
         isShown = true;
         _currentLine = 0;
-        text.GetComponent<TMP_Text>().text = lines[_currentLine] + " ▼";
+        text.GetComponent<TMP_Text>().text = lines[_currentLine] + " <wave a=0.25>▼</wave>";
     }
 
     public bool HasNext => _currentLine < lines.Length - 1;
@@ -31,7 +31,7 @@ public class TextBox : ScriptableObject
         if (HasNext)
         {
             _currentLine++;
-            text.GetComponent<TMP_Text>().text = lines[_currentLine] + " ▼";
+            text.GetComponent<TMP_Text>().text = lines[_currentLine] + " <wave a=0.25>▼</wave>";
         }
     }
 
