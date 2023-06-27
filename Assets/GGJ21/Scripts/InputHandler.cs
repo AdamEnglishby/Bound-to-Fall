@@ -29,7 +29,9 @@ public class InputHandler : MonoBehaviour
     public bool movementEnabled = false;
     public CinemachineVirtualCamera startCamera;
     
-    private static readonly int Running = Animator.StringToHash("Running");
+    private static readonly int Running = Animator.StringToHash("Running"),
+        Forwards = Animator.StringToHash("Forwards"),
+        Backwards = Animator.StringToHash("Backwards");
 
     private void Awake()
     {
@@ -61,6 +63,7 @@ public class InputHandler : MonoBehaviour
     public void Update()
     {
         animator.SetBool(Running, _moveDirection.magnitude > 0.05f);
+        animator.SetBool(Forwards, true);
         if (_downVelocity <= maxVelocity / 1.5f)
         {
             var m = speedLines.emission;
@@ -85,8 +88,8 @@ public class InputHandler : MonoBehaviour
             }
         }
 
-        var transformedInput = _camera.transform.TransformDirection(_moveDirection);
-        var moveDir = new Vector3(transformedInput.x, 0, transformedInput.y) * speed;
+        var moveDir = new Vector3(_moveDirection.x, 0, _moveDirection.y) * speed;
+        moveDir = _camera.transform.TransformDirection(moveDir);
         moveDir.y = _downVelocity;
         
         controller.Move(moveDir * Time.deltaTime);
