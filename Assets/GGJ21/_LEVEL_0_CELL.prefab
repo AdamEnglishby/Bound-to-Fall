@@ -11947,7 +11947,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6541724700718950388}
   m_Layer: 0
-  m_Name: _LEVEL_CELL
+  m_Name: _LEVEL_0_CELL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
