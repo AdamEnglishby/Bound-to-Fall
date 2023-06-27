@@ -110,10 +110,10 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Character_0
+      name: Run (Forwards #8)
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1890
         y: 1080
         width: 270
         height: 270
@@ -131,10 +131,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_1
+      name: Run (Forwards #7)
       rect:
         serializedVersion: 2
-        x: 270
+        x: 1620
         y: 1080
         width: 270
         height: 270
@@ -152,10 +152,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_2
+      name: Run (Forwards #6)
       rect:
         serializedVersion: 2
-        x: 540
+        x: 1350
         y: 1080
         width: 270
         height: 270
@@ -173,10 +173,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_3
+      name: Run (Forwards #5)
       rect:
         serializedVersion: 2
-        x: 810
+        x: 1080
         y: 1080
         width: 270
         height: 270
@@ -194,10 +194,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_4
+      name: Run (Forwards #4)
       rect:
         serializedVersion: 2
-        x: 1080
+        x: 810
         y: 1080
         width: 270
         height: 270
@@ -215,10 +215,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_5
+      name: Run (Forwards #3)
       rect:
         serializedVersion: 2
-        x: 1350
+        x: 540
         y: 1080
         width: 270
         height: 270
@@ -236,10 +236,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_6
+      name: Run (Forwards #2)
       rect:
         serializedVersion: 2
-        x: 1620
+        x: 270
         y: 1080
         width: 270
         height: 270
@@ -257,10 +257,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_7
+      name: Run (Forwards #1)
       rect:
         serializedVersion: 2
-        x: 1890
+        x: 0
         y: 1080
         width: 270
         height: 270
@@ -278,7 +278,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_8
+      name: Idle (Forwards #1)
       rect:
         serializedVersion: 2
         x: 0
@@ -299,7 +299,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_10
+      name: Run (Backwards #1)
       rect:
         serializedVersion: 2
         x: 0
@@ -320,7 +320,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_11
+      name: Run (Backwards #2)
       rect:
         serializedVersion: 2
         x: 270
@@ -341,7 +341,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_12
+      name: Run (Backwards #3)
       rect:
         serializedVersion: 2
         x: 540
@@ -362,7 +362,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_13
+      name: Run (Backwards #4)
       rect:
         serializedVersion: 2
         x: 810
@@ -383,7 +383,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_14
+      name: Run (Backwards #5)
       rect:
         serializedVersion: 2
         x: 1080
@@ -404,7 +404,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_15
+      name: Run (Backwards #6)
       rect:
         serializedVersion: 2
         x: 1350
@@ -425,7 +425,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_16
+      name: Run (Backwards #7)
       rect:
         serializedVersion: 2
         x: 1620
@@ -446,7 +446,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_17
+      name: Run (Backwards #8)
       rect:
         serializedVersion: 2
         x: 1890
@@ -466,6 +466,342 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Run (Left #1)
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 270
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54346c8a6188a548928faf3d1d48213
+      internalID: 1645971741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run (Left #2)
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 270
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 495f2468055516c42b96bb87b7ad4070
+      internalID: 776134277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run (Left #3)
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 270
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e5619cc733a4f429a16f4cd1781bfd
+      internalID: -1212768126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run (Left #4)
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 270
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce3e6762f298a444a50e22a127e5477
+      internalID: -59157220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run (Left #5)
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 270
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e528df98460e2bd4abdbb673f64af1c9
+      internalID: 890238447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run (Left #6)
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 270
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4073b0dc7a7f2b04e9bd17f64a416e65
+      internalID: -1470779279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run (Left #7)
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 270
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb7a50d63457ba4f9694ea86796dc35
+      internalID: -1297132936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run (Left #8)
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 270
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f532829397131347b8409e6de90af3c
+      internalID: 118636682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run (Right #1)
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78a1c7e7567dd4438c6d49dc8c9b08e
+      internalID: -1673250838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run (Right #2)
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 0
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26329e603b9949e4e96de19159c16904
+      internalID: -1819703366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run (Right #3)
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 0
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7af8d8959d7e734a93a7be9170b07db
+      internalID: -1822497537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run (Right #4)
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 0
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16afae0696905e47983d6f1e0f023ba
+      internalID: 1804931183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run (Right #5)
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 0
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac37c7ec35d447e46aad05be43a05c3a
+      internalID: 1409642507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run (Right #6)
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 0
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6393f2834054f489baa406505bb7ee
+      internalID: -1056132660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run (Right #7)
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 0
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635d964bd0c83114ea5f260b3df650ef
+      internalID: -1790423114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run (Right #8)
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 0
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f1d06db7e68a6419ae0b5b1c43134e
+      internalID: -928867855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -477,24 +813,40 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Character_0: 245856292
-      Character_1: -1338395454
-      Character_10: 1882630193
-      Character_11: -1117664752
-      Character_12: 634481770
-      Character_13: -801666578
-      Character_14: 2034466426
-      Character_15: -1589946019
-      Character_16: 82432203
-      Character_17: 342358758
-      Character_2: -2096820465
-      Character_3: 2073850863
-      Character_4: -1781495325
-      Character_5: -633018262
-      Character_6: 1243891819
-      Character_7: -1608073400
-      Character_8: -1441177889
       Character_9: -984220971
+      Idle (Forwards #1): -1441177889
+      Run (Backwards #1): 1882630193
+      Run (Backwards #2): -1117664752
+      Run (Backwards #3): 634481770
+      Run (Backwards #4): -801666578
+      Run (Backwards #5): 2034466426
+      Run (Backwards #6): -1589946019
+      Run (Backwards #7): 82432203
+      Run (Backwards #8): 342358758
+      Run (Forwards #1): -1608073400
+      Run (Forwards #2): 1243891819
+      Run (Forwards #3): -633018262
+      Run (Forwards #4): -1781495325
+      Run (Forwards #5): 2073850863
+      Run (Forwards #6): -2096820465
+      Run (Forwards #7): -1338395454
+      Run (Forwards #8): 245856292
+      Run (Left #1): 1645971741
+      Run (Left #2): 776134277
+      Run (Left #3): -1212768126
+      Run (Left #4): -59157220
+      Run (Left #5): 890238447
+      Run (Left #6): -1470779279
+      Run (Left #7): -1297132936
+      Run (Left #8): 118636682
+      Run (Right #1): 1480465028
+      Run (Right #2): -1819703366
+      Run (Right #3): -1822497537
+      Run (Right #4): 1804931183
+      Run (Right #5): 1409642507
+      Run (Right #6): -1056132660
+      Run (Right #7): -1790423114
+      Run (Right #8): -928867855
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

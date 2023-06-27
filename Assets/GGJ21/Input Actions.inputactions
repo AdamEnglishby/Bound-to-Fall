@@ -28,7 +28,7 @@
                 {
                     "name": "",
                     "id": "2df7e317-cc69-4a2b-8627-9bd8afb3231b",
-                    "path": "<Stadia Controller>/leftStick",
+                    "path": "<Gamepad>/leftStick",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -95,6 +95,17 @@
                     "name": "",
                     "id": "29d833c2-7c08-448e-964a-86e3da53218a",
                     "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PrimaryButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c27d9d37-fc0d-4983-82e6-b3ab97630251",
+                    "path": "<Gamepad>/buttonSouth",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
