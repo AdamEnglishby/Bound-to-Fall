@@ -86,7 +86,6 @@ public class InputHandler : MonoBehaviour
 
     public void OnMashButton(InputValue value)
     {
-        Debug.Log("Mash");
         if (!_hasJacket || !value.isPressed) return;
         if (_mashValue >= mashMaxValue) return;
         
