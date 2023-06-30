@@ -13,6 +13,15 @@ public class InputHandler : MonoBehaviour
     private Vector2 _moveDirection;
     private float _downVelocity;
 
+    public float mashIncrement = 0.25f;
+    public float mashThreshold = 1f;
+    public float mashMaxValue = 2f;
+    public float mashDuration = 3f;
+
+    public float _mashDurationTracked;
+    public float _mashValue ;
+    private bool _hasJacket = true;
+
     private static event Action<InputValue> PrimaryButtonPressed;
 
     public static Action<InputValue> OnPrimaryButtonPressed
@@ -20,6 +29,8 @@ public class InputHandler : MonoBehaviour
         get => PrimaryButtonPressed;
         set => PrimaryButtonPressed = value;
     }
+
+    public static event Action OnEscaped;
 
     public ParticleSystem speedLines;
     public float gravity = -1f / 6;
@@ -39,13 +50,17 @@ public class InputHandler : MonoBehaviour
     {
         _camera = Camera.main;
         StartCoroutine(EnableInput());
+        OnEscaped += () =>
+        {
+            Debug.Log("Escaped!");
+        };
     }
 
     private IEnumerator EnableInput()
     {
         yield return new WaitForSeconds(0.1f);
         startCamera.Priority = -1;
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(1);
         movementEnabled = true;
     }
 
@@ -57,6 +72,15 @@ public class InputHandler : MonoBehaviour
         }
     }
 
+    public void OnMashButton(InputValue value)
+    {
+        if (!_hasJacket || !value.isPressed) return;
+        if (_mashValue < 2f)
+        {
+            _mashValue += mashIncrement;
+        }
+    }
+
     public void OnPrimaryButton(InputValue value)
     {
         PrimaryButtonPressed?.Invoke(value);
@@ -64,6 +88,30 @@ public class InputHandler : MonoBehaviour
 
     public void Update()
     {
+        if (_hasJacket)
+        {
+            _mashValue -= Time.deltaTime;
+            if (_mashValue < 0)
+            {
+                _mashValue = 0;
+            }
+
+            if (_mashValue > mashThreshold)
+            {
+                _mashDurationTracked += Time.deltaTime;
+            }
+            else
+            {
+                _mashDurationTracked = 0;
+            }
+
+            if (_mashDurationTracked >= mashDuration)
+            {
+                OnEscaped?.Invoke();
+                _hasJacket = false;
+            }
+        }
+
         animator.SetBool(Running, _moveDirection.magnitude > 0.05f);
 
         var m = speedLines.emission;
