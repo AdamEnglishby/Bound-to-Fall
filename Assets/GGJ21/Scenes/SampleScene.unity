@@ -1105,7 +1105,7 @@ MonoBehaviour:
   mashIncrement: 0.25
   mashThreshold: 1
   mashMaxValue: 2
-  mashDuration: 3
+  mashDuration: 2
   _mashDurationTracked: 0
   _mashValue: 0
   speedLines: {fileID: 1765878616}

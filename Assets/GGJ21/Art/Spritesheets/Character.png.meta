@@ -114,7 +114,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1890
-        y: 1080
+        y: 1350
         width: 270
         height: 270
       alignment: 9
@@ -135,7 +135,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1620
-        y: 1080
+        y: 1350
         width: 270
         height: 270
       alignment: 9
@@ -156,7 +156,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1350
-        y: 1080
+        y: 1350
         width: 270
         height: 270
       alignment: 9
@@ -177,7 +177,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1080
-        y: 1080
+        y: 1350
         width: 270
         height: 270
       alignment: 9
@@ -198,7 +198,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 810
-        y: 1080
+        y: 1350
         width: 270
         height: 270
       alignment: 9
@@ -219,7 +219,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 540
-        y: 1080
+        y: 1350
         width: 270
         height: 270
       alignment: 9
@@ -240,7 +240,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 270
-        y: 1080
+        y: 1350
         width: 270
         height: 270
       alignment: 9
@@ -261,7 +261,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1080
+        y: 1350
         width: 270
         height: 270
       alignment: 9
@@ -282,7 +282,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 810
+        y: 1080
         width: 270
         height: 270
       alignment: 9
@@ -303,7 +303,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 540
+        y: 810
         width: 270
         height: 270
       alignment: 9
@@ -324,7 +324,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 270
-        y: 540
+        y: 810
         width: 270
         height: 270
       alignment: 9
@@ -345,7 +345,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 540
-        y: 540
+        y: 810
         width: 270
         height: 270
       alignment: 9
@@ -366,7 +366,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 810
-        y: 540
+        y: 810
         width: 270
         height: 270
       alignment: 9
@@ -387,7 +387,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1080
-        y: 540
+        y: 810
         width: 270
         height: 270
       alignment: 9
@@ -408,7 +408,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1350
-        y: 540
+        y: 810
         width: 270
         height: 270
       alignment: 9
@@ -429,7 +429,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1620
-        y: 540
+        y: 810
         width: 270
         height: 270
       alignment: 9
@@ -450,7 +450,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1890
-        y: 540
+        y: 810
         width: 270
         height: 270
       alignment: 9
@@ -471,7 +471,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 270
+        y: 540
         width: 270
         height: 270
       alignment: 9
@@ -492,7 +492,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 270
-        y: 270
+        y: 540
         width: 270
         height: 270
       alignment: 9
@@ -513,7 +513,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 540
-        y: 270
+        y: 540
         width: 270
         height: 270
       alignment: 9
@@ -534,7 +534,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 810
-        y: 270
+        y: 540
         width: 270
         height: 270
       alignment: 9
@@ -555,7 +555,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1080
-        y: 270
+        y: 540
         width: 270
         height: 270
       alignment: 9
@@ -576,7 +576,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1350
-        y: 270
+        y: 540
         width: 270
         height: 270
       alignment: 9
@@ -597,7 +597,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1620
-        y: 270
+        y: 540
         width: 270
         height: 270
       alignment: 9
@@ -618,7 +618,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1890
-        y: 270
+        y: 540
         width: 270
         height: 270
       alignment: 9
@@ -639,7 +639,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 270
         width: 270
         height: 270
       alignment: 9
@@ -660,7 +660,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 270
-        y: 0
+        y: 270
         width: 270
         height: 270
       alignment: 9
@@ -681,7 +681,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 540
-        y: 0
+        y: 270
         width: 270
         height: 270
       alignment: 9
@@ -702,7 +702,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 810
-        y: 0
+        y: 270
         width: 270
         height: 270
       alignment: 9
@@ -723,7 +723,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1080
-        y: 0
+        y: 270
         width: 270
         height: 270
       alignment: 9
@@ -744,7 +744,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1350
-        y: 0
+        y: 270
         width: 270
         height: 270
       alignment: 9
@@ -765,7 +765,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1620
-        y: 0
+        y: 270
         width: 270
         height: 270
       alignment: 9
@@ -786,7 +786,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1890
-        y: 0
+        y: 270
         width: 270
         height: 270
       alignment: 9
@@ -807,7 +807,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 270
-        y: 810
+        y: 1080
         width: 270
         height: 270
       alignment: 9
@@ -828,7 +828,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 540
-        y: 810
+        y: 1080
         width: 270
         height: 270
       alignment: 9
@@ -844,6 +844,174 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Struggle #1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370d235cba3b3b64b9ad6d1a075301e1
+      internalID: -672334181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Struggle #2
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 0
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67dc5299e40418499e1fedf89a3fc78
+      internalID: 1458145725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Struggle #3
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 0
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68fc16b49a7e8ef4d990e6bf95e6d93e
+      internalID: -333721161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Struggle #4
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 0
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24f373170b0e184aa4ee13ba03d0db6
+      internalID: -1721070757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Struggle #5
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 0
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77713f2324f329e4480d62da9ac8f556
+      internalID: 1979117140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Struggle #6
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 0
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004325b4a4e379441b851a4aa2a61cee
+      internalID: -1066371971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Struggle #7
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 0
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614d78bfc4167fc4db368bc1c6410b97
+      internalID: 1423498055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Struggle #8
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 0
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc76528fcba4294d95b4b0a1c2239d0
+      internalID: -247353206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -855,7 +1023,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Character_2: -76415014
+      Character_0: -1090014044
       Character_9: -984220971
       Idle (Forwards #1): -1441177889
       Idle (Forwards #2): 445116826
@@ -892,6 +1060,14 @@ TextureImporter:
       Run (Right #6): -1056132660
       Run (Right #7): -1790423114
       Run (Right #8): -928867855
+      Struggle #1: -672334181
+      Struggle #2: -76415014
+      Struggle #3: -333721161
+      Struggle #4: -1721070757
+      Struggle #5: 1979117140
+      Struggle #6: -1066371971
+      Struggle #7: 1423498055
+      Struggle #8: -247353206
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -44,7 +44,9 @@ public class InputHandler : MonoBehaviour
         Forwards = Animator.StringToHash("Forwards"),
         Backwards = Animator.StringToHash("Backwards"),
         Left = Animator.StringToHash("Left"),
-        Right = Animator.StringToHash("Right");
+        Right = Animator.StringToHash("Right"),
+        Struggle = Animator.StringToHash("Struggle"),
+        StruggleSpeed = Animator.StringToHash("Struggle Speed");
 
     private void Awake()
     {
@@ -88,8 +90,16 @@ public class InputHandler : MonoBehaviour
 
     public void Update()
     {
+        if (!movementEnabled)
+        {
+            _moveDirection = Vector2.zero;
+        }
         if (_hasJacket)
         {
+            animator.SetFloat(StruggleSpeed, Mathf.Max(0.5f, _mashValue));
+            animator.SetBool(Struggle, _mashValue > 0f);
+            movementEnabled = _mashValue == 0f;
+            
             _mashValue -= Time.deltaTime;
             if (_mashValue < 0)
             {
@@ -108,7 +118,9 @@ public class InputHandler : MonoBehaviour
             if (_mashDurationTracked >= mashDuration)
             {
                 OnEscaped?.Invoke();
+                animator.SetBool(Struggle, false);
                 _hasJacket = false;
+                movementEnabled = true;
             }
         }
 
