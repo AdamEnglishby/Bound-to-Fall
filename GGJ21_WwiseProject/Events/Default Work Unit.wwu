@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BB59559E-887F-45FD-9AFB-CE627E20BEB4}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{BB59559E-887F-45FD-9AFB-CE627E20BEB4}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Music" ID="{EAF1B61C-AA05-4C4F-ABCA-B96FBB0A1BB0}">
+					<ChildrenList>
+						<Action Name="" ID="{659A0237-35E2-4652-BA17-0A4D4EB8C96B}" ShortID="46381301">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MusicContainer" ID="{AC7AD39B-0F29-45B7-B43B-3075BE373199}" WorkUnitID="{7FF7B228-3804-48FA-9CC4-3D922BA91205}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Music" ID="{6E0076DF-836D-4EA5-837F-40D1D8DAD701}">
+					<ChildrenList>
+						<Action Name="" ID="{F232E478-CA86-44B8-97EF-601BAA7225FD}" ShortID="169871821">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MusicContainer" ID="{AC7AD39B-0F29-45B7-B43B-3075BE373199}" WorkUnitID="{7FF7B228-3804-48FA-9CC4-3D922BA91205}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
