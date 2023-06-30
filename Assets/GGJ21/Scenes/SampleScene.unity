@@ -1106,8 +1106,8 @@ MonoBehaviour:
   mashThreshold: 1
   mashMaxValue: 2
   mashDuration: 2
-  _mashDurationTracked: 0
-  _mashValue: 0
+  onEscapeStarted: {fileID: 11400000, guid: 7a45de393f844884db6191abe5529668, type: 2}
+  onEscaped: {fileID: 11400000, guid: 08c5a1632bafb7946a8d1551dd3c3aa3, type: 2}
   speedLines: {fileID: 1765878616}
   gravity: -0.1666667
   maxVelocity: -50

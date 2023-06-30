@@ -22,6 +22,9 @@ public class InputHandler : MonoBehaviour
     private float _mashValue ;
     private bool _hasJacket = true;
 
+    private bool _escapeStarted = false;
+    public TextBox onEscapeStarted, onEscaped;
+
     private static event Action<InputValue> PrimaryButtonPressed;
 
     public static Action<InputValue> OnPrimaryButtonPressed
@@ -30,7 +33,7 @@ public class InputHandler : MonoBehaviour
         set => PrimaryButtonPressed = value;
     }
 
-    public static event Action OnEscaped;
+    public static event Action OnEscaped, OnEscapeStarted;
 
     public ParticleSystem speedLines;
     public float gravity = -1f / 6;
@@ -52,9 +55,16 @@ public class InputHandler : MonoBehaviour
     {
         _camera = Camera.main;
         StartCoroutine(EnableInput());
+        OnEscapeStarted += () =>
+        {
+            if (_escapeStarted) return;
+            
+            Dialogue.Show(onEscapeStarted);
+            _escapeStarted = true;
+        };
         OnEscaped += () =>
         {
-            Debug.Log("Escaped!");
+            Dialogue.Show(onEscaped);
         };
     }
 
@@ -76,11 +86,12 @@ public class InputHandler : MonoBehaviour
 
     public void OnMashButton(InputValue value)
     {
+        Debug.Log("Mash");
         if (!_hasJacket || !value.isPressed) return;
-        if (_mashValue < mashMaxValue)
-        {
-            _mashValue += mashIncrement;
-        }
+        if (_mashValue >= mashMaxValue) return;
+        
+        OnEscapeStarted?.Invoke();
+        _mashValue += mashIncrement;
     }
 
     public void OnPrimaryButton(InputValue value)
