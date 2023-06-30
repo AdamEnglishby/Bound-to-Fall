@@ -1,0 +1,16 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2837384057	Stop_Music			\Default Work Unit\Stop_Music	
+	2932040671	Play_Music			\Default Work Unit\Play_Music	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	89505537	Gameplay			\Default Work Unit\Gameplay	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Gameplay			
+	2582085496	Exploration	Gameplay			
+	3604647259	MainMenu	Gameplay			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	248767242	GalwayGameJamKingBosbyMainLoop_90_1_I1_O3_M1	C:\Users\david\Documents\Composition\Freelance\Game Jams\Galway Game Jam\GGJ21\GGJ21_WwiseProject\.cache\Mac\SFX\GalwayGameJamKingBosbyMainLoop_90_1_I1_O3_M1_179463A7.wem		\Interactive Music Hierarchy\Default Work Unit\MusicContainer\Exploration\ExplorationLoop\GalwayGameJamKingBosbyMainLoop_90_1_I1_O3_M1		1191412
+	335546770	GalwayGameJamKingBosbyMainLoopIntro_90_1_I1_O1_M1	C:\Users\david\Documents\Composition\Freelance\Game Jams\Galway Game Jam\GGJ21\GGJ21_WwiseProject\.cache\Mac\SFX\GalwayGameJamKingBosbyMainLoopIntro_90_1_I1_O1_M1_179463A7.wem		\Interactive Music Hierarchy\Default Work Unit\MusicContainer\Transitions\ExplorationIntro\GalwayGameJamKingBosbyMainLoopIntro_90_1_I1_O1_M1		54329
+
