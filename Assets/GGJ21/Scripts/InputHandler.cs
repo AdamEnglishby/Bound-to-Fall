@@ -18,8 +18,8 @@ public class InputHandler : MonoBehaviour
     public float mashMaxValue = 2f;
     public float mashDuration = 3f;
 
-    public float _mashDurationTracked;
-    public float _mashValue ;
+    private float _mashDurationTracked;
+    private float _mashValue ;
     private bool _hasJacket = true;
 
     private static event Action<InputValue> PrimaryButtonPressed;
@@ -77,7 +77,7 @@ public class InputHandler : MonoBehaviour
     public void OnMashButton(InputValue value)
     {
         if (!_hasJacket || !value.isPressed) return;
-        if (_mashValue < 2f)
+        if (_mashValue < mashMaxValue)
         {
             _mashValue += mashIncrement;
         }
