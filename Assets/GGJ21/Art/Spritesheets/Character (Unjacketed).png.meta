@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5e40297150ef3e54d94359d191cb89b5
+guid: 574849ce50641a04cb71d25a1cda9799
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,154 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Run (Forwards #8)
-      rect:
-        serializedVersion: 2
-        x: 1890
-        y: 1080
-        width: 270
-        height: 270
-      alignment: 9
-      pivot: {x: 0.5, y: 0.1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b0a64fc56345e6e459ac2d0d411472ae
-      internalID: 245856292
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run (Forwards #7)
-      rect:
-        serializedVersion: 2
-        x: 1620
-        y: 1080
-        width: 270
-        height: 270
-      alignment: 9
-      pivot: {x: 0.5, y: 0.1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d0cbda4543687df47af2a6064067b541
-      internalID: -1338395454
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run (Forwards #6)
-      rect:
-        serializedVersion: 2
-        x: 1350
-        y: 1080
-        width: 270
-        height: 270
-      alignment: 9
-      pivot: {x: 0.5, y: 0.1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 84492252b9b949b45a12f1fb50d5b720
-      internalID: -2096820465
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run (Forwards #5)
-      rect:
-        serializedVersion: 2
-        x: 1080
-        y: 1080
-        width: 270
-        height: 270
-      alignment: 9
-      pivot: {x: 0.5, y: 0.1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b9e6cd9808343014c925a329c6113b48
-      internalID: 2073850863
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run (Forwards #4)
-      rect:
-        serializedVersion: 2
-        x: 810
-        y: 1080
-        width: 270
-        height: 270
-      alignment: 9
-      pivot: {x: 0.5, y: 0.1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5058d5af48371b540b9e6712e9038723
-      internalID: -1781495325
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run (Forwards #3)
-      rect:
-        serializedVersion: 2
-        x: 540
-        y: 1080
-        width: 270
-        height: 270
-      alignment: 9
-      pivot: {x: 0.5, y: 0.1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 45d313251fe1b734ab80fb15566c410b
-      internalID: -633018262
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run (Forwards #2)
-      rect:
-        serializedVersion: 2
-        x: 270
-        y: 1080
-        width: 270
-        height: 270
-      alignment: 9
-      pivot: {x: 0.5, y: 0.1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d0ca63d07033128489d2f406d1e88698
-      internalID: 1243891819
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run (Forwards #1)
+      name: Character (Unjacketed)_0
       rect:
         serializedVersion: 2
         x: 0
@@ -271,8 +124,155 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d8b88e88260d7f42bc0bc3eebc59e7f
-      internalID: -1608073400
+      spriteID: 66da719c6dbd02b4eae70acc684c1884
+      internalID: -1316136648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character (Unjacketed)_1
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1080
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ab76902febb2d4fb72bb382b024e70
+      internalID: -656540181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character (Unjacketed)_2
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1080
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944c942f804207d4395b06dd0e31e726
+      internalID: -1947400606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character (Unjacketed)_3
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1080
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e3cb511c1f0994eb04e9146576caf4
+      internalID: -683445495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character (Unjacketed)_4
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1080
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7632ad8ca575e9342b7a7d148f76f0ef
+      internalID: -1782669653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character (Unjacketed)_5
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1080
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522d61e98cbcfc54ebc4b2055617426a
+      internalID: -2032987574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character (Unjacketed)_6
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1080
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da08280790064e4c9bfce4b964fd96f
+      internalID: -991070747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character (Unjacketed)_7
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1080
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083d94be4c99a0b489e66831652408f0
+      internalID: -38689110
       vertices: []
       indices: 
       edges: []
@@ -292,512 +292,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42431653fa3177e40a6a9c41cce29fbb
-      internalID: -1441177889
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run (Backwards #1)
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 540
-        width: 270
-        height: 270
-      alignment: 9
-      pivot: {x: 0.5, y: 0.1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e2f80629f07d45945b640def1c97b6dd
-      internalID: 1882630193
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run (Backwards #2)
-      rect:
-        serializedVersion: 2
-        x: 270
-        y: 540
-        width: 270
-        height: 270
-      alignment: 9
-      pivot: {x: 0.5, y: 0.1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a87d45a03952b7540b63925491943d0f
-      internalID: -1117664752
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run (Backwards #3)
-      rect:
-        serializedVersion: 2
-        x: 540
-        y: 540
-        width: 270
-        height: 270
-      alignment: 9
-      pivot: {x: 0.5, y: 0.1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 87d2f1ec1268ecf45ab8ade7aaff9e21
-      internalID: 634481770
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run (Backwards #4)
-      rect:
-        serializedVersion: 2
-        x: 810
-        y: 540
-        width: 270
-        height: 270
-      alignment: 9
-      pivot: {x: 0.5, y: 0.1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8605c644e4a7c2f4f86f8c893a801353
-      internalID: -801666578
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run (Backwards #5)
-      rect:
-        serializedVersion: 2
-        x: 1080
-        y: 540
-        width: 270
-        height: 270
-      alignment: 9
-      pivot: {x: 0.5, y: 0.1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9711d6b295c487d44aaee88023f3c987
-      internalID: 2034466426
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run (Backwards #6)
-      rect:
-        serializedVersion: 2
-        x: 1350
-        y: 540
-        width: 270
-        height: 270
-      alignment: 9
-      pivot: {x: 0.5, y: 0.1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5f2c63747d83aec4a9d096c99b0f440f
-      internalID: -1589946019
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run (Backwards #7)
-      rect:
-        serializedVersion: 2
-        x: 1620
-        y: 540
-        width: 270
-        height: 270
-      alignment: 9
-      pivot: {x: 0.5, y: 0.1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5f17d8aad327e06408e43cc87e51017f
-      internalID: 82432203
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run (Backwards #8)
-      rect:
-        serializedVersion: 2
-        x: 1890
-        y: 540
-        width: 270
-        height: 270
-      alignment: 9
-      pivot: {x: 0.5, y: 0.1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2d428ad3aaa32274384edd181c86a372
-      internalID: 342358758
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run (Left #1)
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 270
-        width: 270
-        height: 270
-      alignment: 9
-      pivot: {x: 0.5, y: 0.1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a54346c8a6188a548928faf3d1d48213
-      internalID: 1645971741
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run (Left #2)
-      rect:
-        serializedVersion: 2
-        x: 270
-        y: 270
-        width: 270
-        height: 270
-      alignment: 9
-      pivot: {x: 0.5, y: 0.1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 495f2468055516c42b96bb87b7ad4070
-      internalID: 776134277
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run (Left #3)
-      rect:
-        serializedVersion: 2
-        x: 540
-        y: 270
-        width: 270
-        height: 270
-      alignment: 9
-      pivot: {x: 0.5, y: 0.1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 55e5619cc733a4f429a16f4cd1781bfd
-      internalID: -1212768126
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run (Left #4)
-      rect:
-        serializedVersion: 2
-        x: 810
-        y: 270
-        width: 270
-        height: 270
-      alignment: 9
-      pivot: {x: 0.5, y: 0.1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7ce3e6762f298a444a50e22a127e5477
-      internalID: -59157220
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run (Left #5)
-      rect:
-        serializedVersion: 2
-        x: 1080
-        y: 270
-        width: 270
-        height: 270
-      alignment: 9
-      pivot: {x: 0.5, y: 0.1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e528df98460e2bd4abdbb673f64af1c9
-      internalID: 890238447
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run (Left #6)
-      rect:
-        serializedVersion: 2
-        x: 1350
-        y: 270
-        width: 270
-        height: 270
-      alignment: 9
-      pivot: {x: 0.5, y: 0.1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4073b0dc7a7f2b04e9bd17f64a416e65
-      internalID: -1470779279
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run (Left #7)
-      rect:
-        serializedVersion: 2
-        x: 1620
-        y: 270
-        width: 270
-        height: 270
-      alignment: 9
-      pivot: {x: 0.5, y: 0.1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7bb7a50d63457ba4f9694ea86796dc35
-      internalID: -1297132936
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run (Left #8)
-      rect:
-        serializedVersion: 2
-        x: 1890
-        y: 270
-        width: 270
-        height: 270
-      alignment: 9
-      pivot: {x: 0.5, y: 0.1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3f532829397131347b8409e6de90af3c
-      internalID: 118636682
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run (Right #1)
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 270
-        height: 270
-      alignment: 9
-      pivot: {x: 0.5, y: 0.1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e78a1c7e7567dd4438c6d49dc8c9b08e
-      internalID: -1673250838
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run (Right #2)
-      rect:
-        serializedVersion: 2
-        x: 270
-        y: 0
-        width: 270
-        height: 270
-      alignment: 9
-      pivot: {x: 0.5, y: 0.1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 26329e603b9949e4e96de19159c16904
-      internalID: -1819703366
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run (Right #3)
-      rect:
-        serializedVersion: 2
-        x: 540
-        y: 0
-        width: 270
-        height: 270
-      alignment: 9
-      pivot: {x: 0.5, y: 0.1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d7af8d8959d7e734a93a7be9170b07db
-      internalID: -1822497537
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run (Right #4)
-      rect:
-        serializedVersion: 2
-        x: 810
-        y: 0
-        width: 270
-        height: 270
-      alignment: 9
-      pivot: {x: 0.5, y: 0.1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c16afae0696905e47983d6f1e0f023ba
-      internalID: 1804931183
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run (Right #5)
-      rect:
-        serializedVersion: 2
-        x: 1080
-        y: 0
-        width: 270
-        height: 270
-      alignment: 9
-      pivot: {x: 0.5, y: 0.1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ac37c7ec35d447e46aad05be43a05c3a
-      internalID: 1409642507
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run (Right #6)
-      rect:
-        serializedVersion: 2
-        x: 1350
-        y: 0
-        width: 270
-        height: 270
-      alignment: 9
-      pivot: {x: 0.5, y: 0.1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5f6393f2834054f489baa406505bb7ee
-      internalID: -1056132660
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run (Right #7)
-      rect:
-        serializedVersion: 2
-        x: 1620
-        y: 0
-        width: 270
-        height: 270
-      alignment: 9
-      pivot: {x: 0.5, y: 0.1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 635d964bd0c83114ea5f260b3df650ef
-      internalID: -1790423114
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run (Right #8)
-      rect:
-        serializedVersion: 2
-        x: 1890
-        y: 0
-        width: 270
-        height: 270
-      alignment: 9
-      pivot: {x: 0.5, y: 0.1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 65f1d06db7e68a6419ae0b5b1c43134e
-      internalID: -928867855
+      spriteID: 046632f8254232749833df53a9ed0dd8
+      internalID: 1979437597
       vertices: []
       indices: 
       edges: []
@@ -817,8 +313,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42f7ccfcd51ad794894dd38231bc586c
-      internalID: 445116826
+      spriteID: a5a18068ce9d75a48a175fa52a57c25c
+      internalID: 205093076
       vertices: []
       indices: 
       edges: []
@@ -838,8 +334,512 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b2a59c032c76d54d85752be6477faaa
-      internalID: 578769491
+      spriteID: ce658d7f1aa72774ba4af5e354276721
+      internalID: -314538705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character (Unjacketed)_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 540
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63529d9ada1d5f45a6494355e7834be
+      internalID: 1804993088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character (Unjacketed)_12
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 540
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c718bca403351043a44b961e1b2fad7
+      internalID: 1102754701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character (Unjacketed)_13
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 540
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa82b3bdc0b30140b36de2861d95230
+      internalID: 528068833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character (Unjacketed)_14
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 540
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5463c5d5984e59c4899a36c6b9ebc222
+      internalID: 1450453291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character (Unjacketed)_15
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 540
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29408f18354eb7c4386bb31c7b46ee55
+      internalID: -763491303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character (Unjacketed)_16
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 540
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baaaa12fc35d7a440b6d41870f070eae
+      internalID: 571307371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character (Unjacketed)_17
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 540
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0d8f47b6fd6474baa39cd9aa1b6787
+      internalID: 839903201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character (Unjacketed)_18
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 540
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad30dfd1675366d4cb30f0277bc8e54b
+      internalID: -1929059265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character (Unjacketed)_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 270
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aaf3690067155641968af3da64c19d7
+      internalID: 1745495430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character (Unjacketed)_20
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 270
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5242457e44bb0f449a7d0155b0869b10
+      internalID: -597803485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character (Unjacketed)_21
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 270
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef91953c7151124992884098de150f1
+      internalID: -75587259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character (Unjacketed)_22
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 270
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08179411ca9e2e4387855ebe432198e
+      internalID: 125453094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character (Unjacketed)_23
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 270
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b69878644cc4743901f619ad59dfd8
+      internalID: -373974935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character (Unjacketed)_24
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 270
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b3d91ae79f957d4e8cbd4bed877eb0f
+      internalID: 1306322285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character (Unjacketed)_25
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 270
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8347cec4a7918de459d4d547fbeff1b9
+      internalID: 2060299484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character (Unjacketed)_26
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 270
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bcd3e21b899d1a4b99dc66f5b2e0baf
+      internalID: -525077868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character (Unjacketed)_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5609bfbf7cd25499ad4a1b761203bd
+      internalID: 1312844613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character (Unjacketed)_28
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 0
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74354f14cd0d95646ace175267b2c979
+      internalID: 1909209327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character (Unjacketed)_29
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 0
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757c01584836ada45a5b1746e9620ced
+      internalID: 1923432528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character (Unjacketed)_30
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 0
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285b66f39df723544a98cc6b592badfd
+      internalID: 678536818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character (Unjacketed)_31
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 0
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f509d96b64aab74ba550e15c5716a10
+      internalID: 216655399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character (Unjacketed)_32
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 0
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c3a1df8f76c2f42ab734ad7c6dee76
+      internalID: -1408422751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character (Unjacketed)_33
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 0
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aaf10fc3bf167145a757872c621eb15
+      internalID: 1046930731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character (Unjacketed)_34
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 0
+        width: 270
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2e3dd1d8bd12e4dac0a684923ac105
+      internalID: 458901143
       vertices: []
       indices: 
       edges: []
@@ -847,7 +847,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: fce33979902f517438fd7880111b2c6b
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -855,43 +855,41 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Character_2: -76415014
-      Character_9: -984220971
-      Idle (Forwards #1): -1441177889
-      Idle (Forwards #2): 445116826
-      Idle (Forwards #3): 578769491
-      Run (Backwards #1): 1882630193
-      Run (Backwards #2): -1117664752
-      Run (Backwards #3): 634481770
-      Run (Backwards #4): -801666578
-      Run (Backwards #5): 2034466426
-      Run (Backwards #6): -1589946019
-      Run (Backwards #7): 82432203
-      Run (Backwards #8): 342358758
-      Run (Forwards #1): -1608073400
-      Run (Forwards #2): 1243891819
-      Run (Forwards #3): -633018262
-      Run (Forwards #4): -1781495325
-      Run (Forwards #5): 2073850863
-      Run (Forwards #6): -2096820465
-      Run (Forwards #7): -1338395454
-      Run (Forwards #8): 245856292
-      Run (Left #1): 1645971741
-      Run (Left #2): 776134277
-      Run (Left #3): -1212768126
-      Run (Left #4): -59157220
-      Run (Left #5): 890238447
-      Run (Left #6): -1470779279
-      Run (Left #7): -1297132936
-      Run (Left #8): 118636682
-      Run (Right #1): 1480465028
-      Run (Right #2): -1819703366
-      Run (Right #3): -1822497537
-      Run (Right #4): 1804931183
-      Run (Right #5): 1409642507
-      Run (Right #6): -1056132660
-      Run (Right #7): -1790423114
-      Run (Right #8): -928867855
+      Character (Unjacketed)_0: -1316136648
+      Character (Unjacketed)_1: -656540181
+      Character (Unjacketed)_11: 1804993088
+      Character (Unjacketed)_12: 1102754701
+      Character (Unjacketed)_13: 528068833
+      Character (Unjacketed)_14: 1450453291
+      Character (Unjacketed)_15: -763491303
+      Character (Unjacketed)_16: 571307371
+      Character (Unjacketed)_17: 839903201
+      Character (Unjacketed)_18: -1929059265
+      Character (Unjacketed)_19: 1745495430
+      Character (Unjacketed)_2: -1947400606
+      Character (Unjacketed)_20: -597803485
+      Character (Unjacketed)_21: -75587259
+      Character (Unjacketed)_22: 125453094
+      Character (Unjacketed)_23: -373974935
+      Character (Unjacketed)_24: 1306322285
+      Character (Unjacketed)_25: 2060299484
+      Character (Unjacketed)_26: -525077868
+      Character (Unjacketed)_27: 1312844613
+      Character (Unjacketed)_28: 1909209327
+      Character (Unjacketed)_29: 1923432528
+      Character (Unjacketed)_3: -683445495
+      Character (Unjacketed)_30: 678536818
+      Character (Unjacketed)_31: 216655399
+      Character (Unjacketed)_32: -1408422751
+      Character (Unjacketed)_33: 1046930731
+      Character (Unjacketed)_34: 458901143
+      Character (Unjacketed)_4: -1782669653
+      Character (Unjacketed)_5: -2032987574
+      Character (Unjacketed)_6: -991070747
+      Character (Unjacketed)_7: -38689110
+      Idle (Forwards #1): 1979437597
+      Idle (Forwards #2): 205093076
+      Idle (Forwards #3): -314538705
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
