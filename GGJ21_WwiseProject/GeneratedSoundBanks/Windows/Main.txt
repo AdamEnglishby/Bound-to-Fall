@@ -11,6 +11,13 @@ State	ID	Name	State Group			Notes
 	3604647259	MainMenu	Gameplay			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	43517552	5_3_BoundToFall	C:\Users\david\Documents\Composition\Freelance\Game Jams\Galway Game Jam\GGJ21\GGJ21_WwiseProject\.cache\Windows\SFX\5.3.BoundToFall_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\DialogueAM\Five\5_3_BoundToFall		257470
+	151572189	4a_BoundToFall	C:\Users\david\Documents\Composition\Freelance\Game Jams\Galway Game Jam\GGJ21\GGJ21_WwiseProject\.cache\Windows\SFX\4a.BoundToFall_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\DialogueAM\Four\4a_BoundToFall		452518
+	184101748	3_(1st Half)BoundToFall	C:\Users\david\Documents\Composition\Freelance\Game Jams\Galway Game Jam\GGJ21\GGJ21_WwiseProject\.cache\Windows\SFX\3.(1st Half)BoundToFall_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\DialogueAM\Three\3_(1st Half)BoundToFall		181100
 	248767242	GalwayGameJamKingBosbyMainLoop_90_1_I1_O3_M1	C:\Users\david\Documents\Composition\Freelance\Game Jams\Galway Game Jam\GGJ21\GGJ21_WwiseProject\.cache\Windows\SFX\GalwayGameJamKingBosbyMainLoop_90_1_I1_O3_M1_179463A7.wem		\Interactive Music Hierarchy\Default Work Unit\MusicContainer\Exploration\ExplorationLoop\GalwayGameJamKingBosbyMainLoop_90_1_I1_O3_M1		1191412
+	311516280	5_1_BoundToFall	C:\Users\david\Documents\Composition\Freelance\Game Jams\Galway Game Jam\GGJ21\GGJ21_WwiseProject\.cache\Windows\SFX\5.1.BoundToFall_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\DialogueAM\Five\5_1_BoundToFall		175010
 	335546770	GalwayGameJamKingBosbyMainLoopIntro_90_1_I1_O1_M1	C:\Users\david\Documents\Composition\Freelance\Game Jams\Galway Game Jam\GGJ21\GGJ21_WwiseProject\.cache\Windows\SFX\GalwayGameJamKingBosbyMainLoopIntro_90_1_I1_O1_M1_179463A7.wem		\Interactive Music Hierarchy\Default Work Unit\MusicContainer\Transitions\ExplorationIntro\GalwayGameJamKingBosbyMainLoopIntro_90_1_I1_O1_M1		54329
+	614748939	5_2_BoundToFall	C:\Users\david\Documents\Composition\Freelance\Game Jams\Galway Game Jam\GGJ21\GGJ21_WwiseProject\.cache\Windows\SFX\5.2.BoundToFall_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\DialogueAM\Five\5_2_BoundToFall		206841
+	879368520	3_(2nd Half)BoundToFall	C:\Users\david\Documents\Composition\Freelance\Game Jams\Galway Game Jam\GGJ21\GGJ21_WwiseProject\.cache\Windows\SFX\3.(2nd Half)BoundToFall_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\DialogueAM\Three\3_(2nd Half)BoundToFall		303601
+	949766449	4b_BoundToFall	C:\Users\david\Documents\Composition\Freelance\Game Jams\Galway Game Jam\GGJ21\GGJ21_WwiseProject\.cache\Windows\SFX\4b.BoundToFall_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\DialogueAM\Four\4b_BoundToFall		358221
 

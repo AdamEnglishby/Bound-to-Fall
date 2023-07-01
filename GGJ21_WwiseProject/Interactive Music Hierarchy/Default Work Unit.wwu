@@ -5,14 +5,32 @@
 			<ChildrenList>
 				<MusicSwitchContainer Name="MusicContainer" ID="{AC7AD39B-0F29-45B7-B43B-3075BE373199}" ShortID="54730885">
 					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>50</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>41</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Tempo" Type="Real64" Value="90"/>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>3.5</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E351A503-EEBF-4FBA-A2FB-7E8EB50DDB27}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E325C396-C547-4A14-BB47-919EF9D4BDD9}"/>
+							<ObjectRef Name="Music" ID="{8CE80E09-C09D-49E3-94E2-B185558F15AE}" WorkUnitID="{E325C396-C547-4A14-BB47-919EF9D4BDD9}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Music_Reverb" ID="{A086A1AC-CE17-4C06-B7C3-876D8750C761}" WorkUnitID="{E325C396-C547-4A14-BB47-919EF9D4BDD9}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

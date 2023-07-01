@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{13320F02-C160-4C3A-9592-BDBEA1C2BA10}" SchemaVersion="103">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{13320F02-C160-4C3A-9592-BDBEA1C2BA10}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{13320F02-C160-4C3A-9592-BDBEA1C2BA10}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="DialogueFour" ID="{C74652FA-555D-4E6F-BF7A-137AEF321E44}">
+					<ChildrenList>
+						<Switch Name="a" ID="{BF52B03C-359F-4180-A676-EFE4F572EAAE}"/>
+						<Switch Name="b" ID="{450FDD2F-CD7A-42FD-98D7-2076CDAA47C1}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

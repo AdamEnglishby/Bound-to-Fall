@@ -13,7 +13,13 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_ESCAPED = 2951119341U;
+        static const AkUniqueID PLAY_FIVE = 3082435314U;
+        static const AkUniqueID PLAY_GRAVITY = 1141801156U;
         static const AkUniqueID PLAY_MUSIC = 2932040671U;
+        static const AkUniqueID PLAY_OPENINGCONVERSATION = 4286341251U;
+        static const AkUniqueID PLAY_TRYINGTOESCAPE = 1315926409U;
+        static const AkUniqueID RESET_OPENINGCONVERSATION = 205457718U;
         static const AkUniqueID STOP_MUSIC = 2837384057U;
     } // namespace EVENTS
 
@@ -33,6 +39,21 @@ namespace AK
 
     } // namespace STATES
 
+    namespace SWITCHES
+    {
+        namespace DIALOGUEFOUR
+        {
+            static const AkUniqueID GROUP = 3380172783U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID A = 84696446U;
+                static const AkUniqueID B = 84696445U;
+            } // namespace SWITCH
+        } // namespace DIALOGUEFOUR
+
+    } // namespace SWITCHES
+
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
@@ -41,8 +62,16 @@ namespace AK
 
     namespace BUSSES
     {
+        static const AkUniqueID DIALOGUE = 3930136735U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
+        static const AkUniqueID MUSIC = 3991942870U;
     } // namespace BUSSES
+
+    namespace AUX_BUSSES
+    {
+        static const AkUniqueID MUSIC_REVERB = 2450185101U;
+        static const AkUniqueID VOICE_REVERB = 805692816U;
+    } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES
     {
