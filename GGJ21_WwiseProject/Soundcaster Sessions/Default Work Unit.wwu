@@ -10,8 +10,28 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_TryingToEscape" ID="{DE3B898A-13C1-4760-9BF8-0E348C201376}" WorkUnitID="{BB59559E-887F-45FD-9AFB-CE627E20BEB4}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Gravity" ID="{732908EA-C39D-4E85-9141-0D7DF9414D74}" WorkUnitID="{BB59559E-887F-45FD-9AFB-CE627E20BEB4}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Stop_Music" ID="{6E0076DF-836D-4EA5-837F-40D1D8DAD701}" WorkUnitID="{BB59559E-887F-45FD-9AFB-CE627E20BEB4}"/>
 							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Escaped" ID="{52FB84DC-56A8-4C3F-A9F5-91916DD17E24}" WorkUnitID="{BB59559E-887F-45FD-9AFB-CE627E20BEB4}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_OpeningConversation" ID="{47F0682D-22B4-4903-9BAB-0156B33788DB}" WorkUnitID="{BB59559E-887F-45FD-9AFB-CE627E20BEB4}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Five" ID="{8A4B4D8B-7D73-47B6-A5ED-E1C21184140A}" WorkUnitID="{BB59559E-887F-45FD-9AFB-CE627E20BEB4}"/>
+							<Position X="2" Y="1"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
