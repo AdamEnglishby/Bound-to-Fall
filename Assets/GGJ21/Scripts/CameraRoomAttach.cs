@@ -21,13 +21,12 @@ namespace GGJ21.Scripts
 
         private void Update()
         {
+            if (!targetGroup) return;
+            if (!_box.bounds.Contains(player.transform.position)) return;
             
-            if (_box.bounds.Contains(player.transform.position))
-            {
-                // set the target group to only the player
-                targetGroup.m_Targets[1].target = room.transform;
-                targetGroup.m_Targets[1].weight = 3;
-            }
+            // set the target group to only the player
+            targetGroup.m_Targets[1].target = room.transform;
+            targetGroup.m_Targets[1].weight = 3;
         }
 
     }
