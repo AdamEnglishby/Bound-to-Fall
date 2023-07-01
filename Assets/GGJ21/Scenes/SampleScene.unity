@@ -651,6 +651,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1201690122}
+    - target: {fileID: 1903322509250059384, guid: f10d9aad991415a47a7d184134f464d8,
+        type: 3}
+      propertyPath: roomToSpawn
+      value: 
+      objectReference: {fileID: 6512731825770522898}
     - target: {fileID: 2068582040079869385, guid: f10d9aad991415a47a7d184134f464d8,
         type: 3}
       propertyPath: m_Name
@@ -6978,6 +6983,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5517aad6b8591554894df3e65ffa6ff0, type: 3}
+--- !u!1 &6512731825770522898 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7547267317141178255, guid: 5517aad6b8591554894df3e65ffa6ff0,
+    type: 3}
+  m_PrefabInstance: {fileID: 6512731825770522897}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7483405350266151360 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3257047754140749885, guid: 5517aad6b8591554894df3e65ffa6ff0,
