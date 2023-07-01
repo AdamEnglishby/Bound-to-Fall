@@ -5,8 +5,8 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{DABB0BAE-74B6-434D-8E9E-645F74B369F8}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_Music" ID="{EAF1B61C-AA05-4C4F-ABCA-B96FBB0A1BB0}" WorkUnitID="{BB59559E-887F-45FD-9AFB-CE627E20BEB4}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Stop_Music" ID="{6E0076DF-836D-4EA5-837F-40D1D8DAD701}" WorkUnitID="{BB59559E-887F-45FD-9AFB-CE627E20BEB4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Default Work Unit" ID="{7FF7B228-3804-48FA-9CC4-3D922BA91205}" WorkUnitID="{7FF7B228-3804-48FA-9CC4-3D922BA91205}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Default Work Unit" ID="{5F3311F2-2361-4CEA-89E4-524D3D3BA4C4}" WorkUnitID="{5F3311F2-2361-4CEA-89E4-524D3D3BA4C4}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

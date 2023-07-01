@@ -25,6 +25,8 @@ public class InputHandler : MonoBehaviour
     private bool _escapeStarted = false;
     public TextBox onEscapeStarted, onEscaped;
 
+    private bool gravityPlayed = false;
+
     private static event Action<InputValue> PrimaryButtonPressed;
 
     public static Action<InputValue> OnPrimaryButtonPressed
@@ -59,11 +61,13 @@ public class InputHandler : MonoBehaviour
         {
             if (_escapeStarted) return;
             
+            AkSoundEngine.PostEvent("Play_TryingToEscape", gameObject);
             Dialogue.Show(onEscapeStarted);
             _escapeStarted = true;
         };
         OnEscaped += () =>
         {
+            AkSoundEngine.PostEvent("Play_Escaped", gameObject);
             Dialogue.Show(onEscaped);
         };
     }
@@ -150,6 +154,10 @@ public class InputHandler : MonoBehaviour
             if (_downVelocity >= maxVelocity)
             {
                 _downVelocity += gravity;
+                if (!gravityPlayed) {
+                    gravityPlayed = true;
+                    AkSoundEngine.PostEvent("Play_Gravity", gameObject);
+                }
             }
         }
 

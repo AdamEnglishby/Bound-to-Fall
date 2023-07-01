@@ -18,7 +18,9 @@
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Exploration" ID="{A3756427-D138-4346-A310-199B857EE0A0}"/>
 					</CurrentStateList>
-					<CurrentSwitchList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="b" ID="{450FDD2F-CD7A-42FD-98D7-2076CDAA47C1}"/>
+					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>

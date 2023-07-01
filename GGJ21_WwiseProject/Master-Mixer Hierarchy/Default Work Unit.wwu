@@ -9,6 +9,28 @@
 							<ObjectRef Name="System" ID="{106E2B89-E0FE-4994-830B-8FD6C9FA8317}" WorkUnitID="{E76A598B-92BA-4220-8E84-2FC4DC919DA4}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Music" ID="{8CE80E09-C09D-49E3-94E2-B185558F15AE}">
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="Dialogue" ID="{87A6F379-B74B-46BD-8754-447FAA075EF4}">
+							<PropertyList>
+								<Property Name="RecoveryTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ObjectLists/>
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="Music" ID="{8CE80E09-C09D-49E3-94E2-B185558F15AE}"/>
+									<DuckingParam>
+										<Volume>-13.5</Volume>
+										<FadeInTime>1.5</FadeInTime>
+										<FadeOutTime>0.5</FadeOutTime>
+										<FadeCurve>FadeExp1</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
+						</Bus>
+					</ChildrenList>
 					<ObjectLists/>
 				</Bus>
 			</ChildrenList>

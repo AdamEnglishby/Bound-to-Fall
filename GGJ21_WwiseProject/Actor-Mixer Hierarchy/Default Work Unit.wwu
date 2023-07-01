@@ -1,6 +1,287 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{5F3311F2-2361-4CEA-89E4-524D3D3BA4C4}" SchemaVersion="103">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{5F3311F2-2361-4CEA-89E4-524D3D3BA4C4}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{5F3311F2-2361-4CEA-89E4-524D3D3BA4C4}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="DialogueAM" ID="{7232AE67-A381-40ED-B788-ED9EA0AFFB83}" ShortID="247319722">
+					<PropertyList>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E351A503-EEBF-4FBA-A2FB-7E8EB50DDB27}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Dialogue" ID="{87A6F379-B74B-46BD-8754-447FAA075EF4}" WorkUnitID="{E325C396-C547-4A14-BB47-919EF9D4BDD9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Five" ID="{611EF7C3-8110-47C7-AA7F-93B3AA01B407}" ShortID="1041777170">
+							<PropertyList>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E351A503-EEBF-4FBA-A2FB-7E8EB50DDB27}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E325C396-C547-4A14-BB47-919EF9D4BDD9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="5_3_BoundToFall" ID="{8568A92E-77B0-4424-990E-A147D3D258DE}" ShortID="317094267">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E351A503-EEBF-4FBA-A2FB-7E8EB50DDB27}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E325C396-C547-4A14-BB47-919EF9D4BDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="5_3_BoundToFall" ID="{39195306-DEF8-41D3-96D2-38D49683179C}">
+											<Language>English(US)</Language>
+											<AudioFile>5.3.BoundToFall.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="43517553"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="5_3_BoundToFall" ID="{39195306-DEF8-41D3-96D2-38D49683179C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="5_2_BoundToFall" ID="{07E77FD2-0450-4AC5-B437-A0D2766006A7}" ShortID="195641425">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E351A503-EEBF-4FBA-A2FB-7E8EB50DDB27}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E325C396-C547-4A14-BB47-919EF9D4BDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="5_2_BoundToFall" ID="{301A61E8-6B35-4A43-B370-234679257BEE}">
+											<Language>English(US)</Language>
+											<AudioFile>5.2.BoundToFall.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="614748940"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="5_2_BoundToFall" ID="{301A61E8-6B35-4A43-B370-234679257BEE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="5_1_BoundToFall" ID="{6311E82D-5253-4206-8FBF-121CB3928CF4}" ShortID="130347644">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E351A503-EEBF-4FBA-A2FB-7E8EB50DDB27}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E325C396-C547-4A14-BB47-919EF9D4BDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="5_1_BoundToFall" ID="{45282B0C-7C71-4E22-97F3-AECCAFC58C0C}">
+											<Language>English(US)</Language>
+											<AudioFile>5.1.BoundToFall.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="311516281"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="5_1_BoundToFall" ID="{45282B0C-7C71-4E22-97F3-AECCAFC58C0C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<Sound Name="Gravity" ID="{1E8BADA7-492B-422A-B144-6F1F82D842AF}" ShortID="300423358">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E351A503-EEBF-4FBA-A2FB-7E8EB50DDB27}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Dialogue" ID="{87A6F379-B74B-46BD-8754-447FAA075EF4}" WorkUnitID="{E325C396-C547-4A14-BB47-919EF9D4BDD9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="4b_BoundToFall" ID="{195D4477-C635-4BC3-A30F-32D4A4D17768}">
+									<Language>English(US)</Language>
+									<AudioFile>4b.BoundToFall.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="949766450"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="4b_BoundToFall" ID="{195D4477-C635-4BC3-A30F-32D4A4D17768}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Escaped" ID="{C83A4206-7BC1-42FF-854D-5EB55033A071}" ShortID="83159564">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E351A503-EEBF-4FBA-A2FB-7E8EB50DDB27}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Dialogue" ID="{87A6F379-B74B-46BD-8754-447FAA075EF4}" WorkUnitID="{E325C396-C547-4A14-BB47-919EF9D4BDD9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="4a_BoundToFall" ID="{035EFC17-A4EB-45DE-807A-C2BF5C9CA4E0}">
+									<Language>English(US)</Language>
+									<AudioFile>4a.BoundToFall.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="151572190"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="4a_BoundToFall" ID="{035EFC17-A4EB-45DE-807A-C2BF5C9CA4E0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="TryingToEscape" ID="{A76D4250-2E20-4C2B-B0B2-0BA71A1343B7}" ShortID="411675982">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E351A503-EEBF-4FBA-A2FB-7E8EB50DDB27}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Dialogue" ID="{87A6F379-B74B-46BD-8754-447FAA075EF4}" WorkUnitID="{E325C396-C547-4A14-BB47-919EF9D4BDD9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="3_(2nd Half)BoundToFall" ID="{F3FCAC88-67EB-406D-8D7A-4F6302CDE00D}">
+									<Language>English(US)</Language>
+									<AudioFile>3.(2nd Half)BoundToFall.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="879368521"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="3_(2nd Half)BoundToFall" ID="{F3FCAC88-67EB-406D-8D7A-4F6302CDE00D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="OpeningConversation" ID="{E0D061A2-B4CB-4CFA-9906-A2FC07BBE74A}" ShortID="603252493">
+							<PropertyList>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E351A503-EEBF-4FBA-A2FB-7E8EB50DDB27}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E325C396-C547-4A14-BB47-919EF9D4BDD9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="OpeningConversationA" ID="{A4CB9F88-7D44-4419-BBC5-E323551186D0}" ShortID="757653646">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E351A503-EEBF-4FBA-A2FB-7E8EB50DDB27}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Dialogue" ID="{87A6F379-B74B-46BD-8754-447FAA075EF4}" WorkUnitID="{E325C396-C547-4A14-BB47-919EF9D4BDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="3_(1st Half)BoundToFall" ID="{45F083AC-41CE-452D-B99D-8CA52A3CD45C}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.88417866671835"/>
+											</PropertyList>
+											<Language>English(US)</Language>
+											<AudioFile>3.(1st Half)BoundToFall.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="184101748"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="3_(1st Half)BoundToFall" ID="{45F083AC-41CE-452D-B99D-8CA52A3CD45C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="OpeningConversationB" ID="{1CB8B073-0A66-434F-BA23-0B0DA779F571}" ShortID="328045492">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E351A503-EEBF-4FBA-A2FB-7E8EB50DDB27}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Dialogue" ID="{87A6F379-B74B-46BD-8754-447FAA075EF4}" WorkUnitID="{E325C396-C547-4A14-BB47-919EF9D4BDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="3_(1st Half)BoundToFall" ID="{2310E119-3F43-4E16-B461-5CC2B1E1F2BF}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0303597754391403"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="3.0414975030848"/>
+											</PropertyList>
+											<Language>English(US)</Language>
+											<AudioFile>3.(1st Half)BoundToFall.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="184101749"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="3_(1st Half)BoundToFall" ID="{2310E119-3F43-4E16-B461-5CC2B1E1F2BF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+							<Playlist>
+								<ItemRef Name="OpeningConversationA" ID="{A4CB9F88-7D44-4419-BBC5-E323551186D0}"/>
+								<ItemRef Name="OpeningConversationB" ID="{1CB8B073-0A66-434F-BA23-0B0DA779F571}"/>
+							</Playlist>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

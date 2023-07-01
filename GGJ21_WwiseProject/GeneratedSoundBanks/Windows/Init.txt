@@ -4,10 +4,12 @@ State Group	ID	Name			Wwise Object Path	Notes
 State	ID	Name	State Group			Notes
 	748895195	None	Gameplay			
 	2582085496	Exploration	Gameplay			
-	2607556080	Menu	Gameplay			
+	3604647259	MainMenu	Gameplay			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3930136735	Dialogue			\Default Work Unit\Master Audio Bus\Dialogue	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

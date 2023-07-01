@@ -3,33 +3,110 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{BB59559E-887F-45FD-9AFB-CE627E20BEB4}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_Music" ID="{EAF1B61C-AA05-4C4F-ABCA-B96FBB0A1BB0}">
+				<Folder Name="Dialogue" ID="{0388E002-EE04-4DAA-80C7-C6757EF26CB7}" ShortID="551397682">
 					<ChildrenList>
-						<Action Name="" ID="{659A0237-35E2-4652-BA17-0A4D4EB8C96B}" ShortID="46381301">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="MusicContainer" ID="{AC7AD39B-0F29-45B7-B43B-3075BE373199}" WorkUnitID="{7FF7B228-3804-48FA-9CC4-3D922BA91205}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Play_OpeningConversation" ID="{47F0682D-22B4-4903-9BAB-0156B33788DB}">
+							<ChildrenList>
+								<Action Name="" ID="{CD8A13E9-4B09-4471-8A10-621BED92EA77}" ShortID="914668965">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="OpeningConversation" ID="{E0D061A2-B4CB-4CFA-9906-A2FC07BBE74A}" WorkUnitID="{5F3311F2-2361-4CEA-89E4-524D3D3BA4C4}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_TryingToEscape" ID="{DE3B898A-13C1-4760-9BF8-0E348C201376}">
+							<ChildrenList>
+								<Action Name="" ID="{4C13220A-004A-409B-B195-83568E64472F}" ShortID="127490143">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TryingToEscape" ID="{A76D4250-2E20-4C2B-B0B2-0BA71A1343B7}" WorkUnitID="{5F3311F2-2361-4CEA-89E4-524D3D3BA4C4}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Escaped" ID="{52FB84DC-56A8-4C3F-A9F5-91916DD17E24}">
+							<ChildrenList>
+								<Action Name="" ID="{1EEA75B8-0673-4312-A04A-CBB775DB9F9C}" ShortID="7988596">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Escaped" ID="{C83A4206-7BC1-42FF-854D-5EB55033A071}" WorkUnitID="{5F3311F2-2361-4CEA-89E4-524D3D3BA4C4}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Reset_OpeningConversation" ID="{96BD66FC-AE26-411B-8963-416A89ED0089}">
+							<ChildrenList>
+								<Action Name="" ID="{C8EA2DA9-2D2F-493F-A012-EE8CC22289CA}" ShortID="396974988">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="42"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="OpeningConversation" ID="{E0D061A2-B4CB-4CFA-9906-A2FC07BBE74A}" WorkUnitID="{5F3311F2-2361-4CEA-89E4-524D3D3BA4C4}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Gravity" ID="{732908EA-C39D-4E85-9141-0D7DF9414D74}">
+							<ChildrenList>
+								<Action Name="" ID="{1EFBB530-6C92-4A40-B44E-2FA204E7764F}" ShortID="69689191">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Gravity" ID="{1E8BADA7-492B-422A-B144-6F1F82D842AF}" WorkUnitID="{5F3311F2-2361-4CEA-89E4-524D3D3BA4C4}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Five" ID="{8A4B4D8B-7D73-47B6-A5ED-E1C21184140A}">
+							<ChildrenList>
+								<Action Name="" ID="{0C2C51E6-8ECA-4B4D-AFCF-6FC734951DEF}" ShortID="857224388">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Five" ID="{611EF7C3-8110-47C7-AA7F-93B3AA01B407}" WorkUnitID="{5F3311F2-2361-4CEA-89E4-524D3D3BA4C4}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="Stop_Music" ID="{6E0076DF-836D-4EA5-837F-40D1D8DAD701}">
+				</Folder>
+				<Folder Name="Music" ID="{9F03E47A-A155-404E-A7F1-C17036FB95A6}" ShortID="915796742">
 					<ChildrenList>
-						<Action Name="" ID="{F232E478-CA86-44B8-97EF-601BAA7225FD}" ShortID="169871821">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="FadeOutCurve" Type="int16" Value="7"/>
-								<Property Name="FadeTime" Type="Real64" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="MusicContainer" ID="{AC7AD39B-0F29-45B7-B43B-3075BE373199}" WorkUnitID="{7FF7B228-3804-48FA-9CC4-3D922BA91205}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Play_Music" ID="{EAF1B61C-AA05-4C4F-ABCA-B96FBB0A1BB0}">
+							<ChildrenList>
+								<Action Name="" ID="{659A0237-35E2-4652-BA17-0A4D4EB8C96B}" ShortID="46381301">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MusicContainer" ID="{AC7AD39B-0F29-45B7-B43B-3075BE373199}" WorkUnitID="{7FF7B228-3804-48FA-9CC4-3D922BA91205}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Music" ID="{6E0076DF-836D-4EA5-837F-40D1D8DAD701}">
+							<ChildrenList>
+								<Action Name="" ID="{F232E478-CA86-44B8-97EF-601BAA7225FD}" ShortID="169871821">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MusicContainer" ID="{AC7AD39B-0F29-45B7-B43B-3075BE373199}" WorkUnitID="{7FF7B228-3804-48FA-9CC4-3D922BA91205}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
