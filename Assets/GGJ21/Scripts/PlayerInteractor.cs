@@ -9,8 +9,9 @@ public class PlayerInteractor : MonoBehaviour
 
     private BoxCollider _collider; // should probably be a sphere but we ball
     private GameObject _torch;
+    private Candle _candleToLight;
 
-    private bool _hasPickedUp;
+    private bool _hasPickedUp, _candleLit;
     private bool _attached;
     private bool _canPickUp;
 
@@ -20,14 +21,23 @@ public class PlayerInteractor : MonoBehaviour
     {
         _collider = GetComponent<BoxCollider>();
         StartCoroutine(SearchForTorch());
+        StartCoroutine(SearchForCandle());
     }
 
     private IEnumerator SearchForTorch()
     {
         while (!_hasPickedUp)
         {
-            Debug.Log("SEARCHING FOR TORCH");
             _torch = FindClosestTorch();
+            yield return new WaitForSeconds(0.5f);
+        }
+    }
+
+    private IEnumerator SearchForCandle()
+    {
+        while (!_candleLit)
+        {
+            _candleToLight = FindClosestCandle();
             yield return new WaitForSeconds(0.5f);
         }
     }
@@ -44,7 +54,7 @@ public class PlayerInteractor : MonoBehaviour
             t.transform.position = transform.position + posOffset;
             t.transform.rotation = Quaternion.identity;
             t.transform.parent = transform;
-            // _attached = true;
+            _attached = true;
         }
     }
     
@@ -53,6 +63,18 @@ public class PlayerInteractor : MonoBehaviour
         if (_canPickUp)
         {
             _hasPickedUp = true;
+        }
+        
+        if (_candleLit) return;
+        
+        if (_candleToLight && _collider.bounds.Contains(_candleToLight.transform.position))
+        {
+            // LIGHT THIS CANDLE
+            _candleLit = true;
+            _candleToLight.candleLit = true;
+            
+            // destroy torch?
+            Destroy(_torch);
         }
     }
     
@@ -73,6 +95,24 @@ public class PlayerInteractor : MonoBehaviour
             distance = curDistance;
         }
         return closest;
+    }
+    private Candle FindClosestCandle()
+    {
+        GameObject[] gos;
+        gos = GameObject.FindGameObjectsWithTag("Candle");
+        GameObject closest = null;
+        var distance = Mathf.Infinity;
+        var position = transform.position;
+        foreach (var go in gos)
+        {
+            var diff = go.transform.position - position;
+            var curDistance = diff.sqrMagnitude;
+            if (!(curDistance < distance)) continue;
+            
+            closest = go;
+            distance = curDistance;
+        }
+        return closest.GetComponent<Candle>();
     }
     
 }
