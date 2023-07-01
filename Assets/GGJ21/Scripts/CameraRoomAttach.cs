@@ -21,6 +21,7 @@ namespace GGJ21.Scripts
 
         private void Update()
         {
+            
             if (_box.bounds.Contains(player.transform.position))
             {
                 // set the target group to only the player
