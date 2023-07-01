@@ -1459,7 +1459,7 @@ MonoBehaviour:
   onEscapeStarted: {fileID: 11400000, guid: 7a45de393f844884db6191abe5529668, type: 2}
   onEscaped: {fileID: 11400000, guid: 08c5a1632bafb7946a8d1551dd3c3aa3, type: 2}
   speedLines: {fileID: 1765878616}
-  gravity: -0.1666667
+  gravity: -0.3333334
   maxVelocity: -50
   speed: 7
   movementEnabled: 0
