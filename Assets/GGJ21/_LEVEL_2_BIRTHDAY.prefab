@@ -985,7 +985,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: d6b379ec83d19ba4688949f6cbb889df, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2233,7 +2233,7 @@ Transform:
   - {fileID: 8730318505000327730}
   - {fileID: 4256989406750794173}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &9100506668121852067
 GameObject:
@@ -2382,6 +2382,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 662514759968546068}
     m_Modifications:
+    - target: {fileID: 544933962734659974, guid: 525eadc4f85d0c947bb998c6d53c671f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2308813476446626304, guid: 525eadc4f85d0c947bb998c6d53c671f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3218387005398127727, guid: 525eadc4f85d0c947bb998c6d53c671f,
         type: 3}
       propertyPath: m_RootOrder
@@ -2452,6 +2462,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3414202912976197810, guid: 525eadc4f85d0c947bb998c6d53c671f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4393584114982952174, guid: 525eadc4f85d0c947bb998c6d53c671f,
         type: 3}
       propertyPath: m_Name
@@ -2459,8 +2474,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4393584114982952174, guid: 525eadc4f85d0c947bb998c6d53c671f,
         type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4393584114982952174, guid: 525eadc4f85d0c947bb998c6d53c671f,
+        type: 3}
       propertyPath: m_TagString
       value: Candle
+      objectReference: {fileID: 0}
+    - target: {fileID: 6391102682032505150, guid: 525eadc4f85d0c947bb998c6d53c671f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2493,6 +2518,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 662514759968546068}
     m_Modifications:
+    - target: {fileID: 544933962734659974, guid: 525eadc4f85d0c947bb998c6d53c671f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2308813476446626304, guid: 525eadc4f85d0c947bb998c6d53c671f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3218387005398127727, guid: 525eadc4f85d0c947bb998c6d53c671f,
         type: 3}
       propertyPath: m_RootOrder
@@ -2563,6 +2598,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3414202912976197810, guid: 525eadc4f85d0c947bb998c6d53c671f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4393584114982952174, guid: 525eadc4f85d0c947bb998c6d53c671f,
         type: 3}
       propertyPath: m_Name
@@ -2570,8 +2610,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4393584114982952174, guid: 525eadc4f85d0c947bb998c6d53c671f,
         type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4393584114982952174, guid: 525eadc4f85d0c947bb998c6d53c671f,
+        type: 3}
       propertyPath: m_TagString
       value: Candle
+      objectReference: {fileID: 0}
+    - target: {fileID: 6391102682032505150, guid: 525eadc4f85d0c947bb998c6d53c671f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2604,6 +2654,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 662514759968546068}
     m_Modifications:
+    - target: {fileID: 544933962734659974, guid: 525eadc4f85d0c947bb998c6d53c671f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2308813476446626304, guid: 525eadc4f85d0c947bb998c6d53c671f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3218387005398127727, guid: 525eadc4f85d0c947bb998c6d53c671f,
         type: 3}
       propertyPath: m_RootOrder
@@ -2659,6 +2719,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3414202912976197810, guid: 525eadc4f85d0c947bb998c6d53c671f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4393584114982952174, guid: 525eadc4f85d0c947bb998c6d53c671f,
         type: 3}
       propertyPath: m_Name
@@ -2666,8 +2731,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4393584114982952174, guid: 525eadc4f85d0c947bb998c6d53c671f,
         type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4393584114982952174, guid: 525eadc4f85d0c947bb998c6d53c671f,
+        type: 3}
       propertyPath: m_TagString
       value: Candle
+      objectReference: {fileID: 0}
+    - target: {fileID: 6391102682032505150, guid: 525eadc4f85d0c947bb998c6d53c671f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2700,6 +2775,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 662514759968546068}
     m_Modifications:
+    - target: {fileID: 544933962734659974, guid: 525eadc4f85d0c947bb998c6d53c671f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2308813476446626304, guid: 525eadc4f85d0c947bb998c6d53c671f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3218387005398127727, guid: 525eadc4f85d0c947bb998c6d53c671f,
         type: 3}
       propertyPath: m_RootOrder
@@ -2770,6 +2855,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3414202912976197810, guid: 525eadc4f85d0c947bb998c6d53c671f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4393584114982952174, guid: 525eadc4f85d0c947bb998c6d53c671f,
         type: 3}
       propertyPath: m_Name
@@ -2777,8 +2867,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4393584114982952174, guid: 525eadc4f85d0c947bb998c6d53c671f,
         type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4393584114982952174, guid: 525eadc4f85d0c947bb998c6d53c671f,
+        type: 3}
       propertyPath: m_TagString
       value: Candle
+      objectReference: {fileID: 0}
+    - target: {fileID: 6391102682032505150, guid: 525eadc4f85d0c947bb998c6d53c671f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2811,6 +2911,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 662514759968546068}
     m_Modifications:
+    - target: {fileID: 544933962734659974, guid: 525eadc4f85d0c947bb998c6d53c671f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2308813476446626304, guid: 525eadc4f85d0c947bb998c6d53c671f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3218387005398127727, guid: 525eadc4f85d0c947bb998c6d53c671f,
         type: 3}
       propertyPath: m_RootOrder
@@ -2881,6 +2991,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3414202912976197810, guid: 525eadc4f85d0c947bb998c6d53c671f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4393584114982952174, guid: 525eadc4f85d0c947bb998c6d53c671f,
         type: 3}
       propertyPath: m_Name
@@ -2888,8 +3003,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4393584114982952174, guid: 525eadc4f85d0c947bb998c6d53c671f,
         type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4393584114982952174, guid: 525eadc4f85d0c947bb998c6d53c671f,
+        type: 3}
       propertyPath: m_TagString
       value: Candle
+      objectReference: {fileID: 0}
+    - target: {fileID: 6391102682032505150, guid: 525eadc4f85d0c947bb998c6d53c671f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2922,6 +3047,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 662514759968546068}
     m_Modifications:
+    - target: {fileID: 544933962734659974, guid: 525eadc4f85d0c947bb998c6d53c671f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2308813476446626304, guid: 525eadc4f85d0c947bb998c6d53c671f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3218387005398127727, guid: 525eadc4f85d0c947bb998c6d53c671f,
         type: 3}
       propertyPath: m_RootOrder
@@ -2992,6 +3127,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3414202912976197810, guid: 525eadc4f85d0c947bb998c6d53c671f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4393584114982952174, guid: 525eadc4f85d0c947bb998c6d53c671f,
         type: 3}
       propertyPath: m_Name
@@ -2999,8 +3139,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4393584114982952174, guid: 525eadc4f85d0c947bb998c6d53c671f,
         type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4393584114982952174, guid: 525eadc4f85d0c947bb998c6d53c671f,
+        type: 3}
       propertyPath: m_TagString
       value: Candle
+      objectReference: {fileID: 0}
+    - target: {fileID: 6391102682032505150, guid: 525eadc4f85d0c947bb998c6d53c671f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3033,6 +3183,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 662514759968546068}
     m_Modifications:
+    - target: {fileID: 544933962734659974, guid: 525eadc4f85d0c947bb998c6d53c671f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2308813476446626304, guid: 525eadc4f85d0c947bb998c6d53c671f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3218387005398127727, guid: 525eadc4f85d0c947bb998c6d53c671f,
         type: 3}
       propertyPath: m_RootOrder
@@ -3103,6 +3263,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3414202912976197810, guid: 525eadc4f85d0c947bb998c6d53c671f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4393584114982952174, guid: 525eadc4f85d0c947bb998c6d53c671f,
         type: 3}
       propertyPath: m_Name
@@ -3110,8 +3275,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4393584114982952174, guid: 525eadc4f85d0c947bb998c6d53c671f,
         type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4393584114982952174, guid: 525eadc4f85d0c947bb998c6d53c671f,
+        type: 3}
       propertyPath: m_TagString
       value: Candle
+      objectReference: {fileID: 0}
+    - target: {fileID: 6391102682032505150, guid: 525eadc4f85d0c947bb998c6d53c671f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3144,6 +3319,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 662514759968546068}
     m_Modifications:
+    - target: {fileID: 544933962734659974, guid: 525eadc4f85d0c947bb998c6d53c671f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2308813476446626304, guid: 525eadc4f85d0c947bb998c6d53c671f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3218387005398127727, guid: 525eadc4f85d0c947bb998c6d53c671f,
         type: 3}
       propertyPath: m_RootOrder
@@ -3214,6 +3399,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3414202912976197810, guid: 525eadc4f85d0c947bb998c6d53c671f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4393584114982952174, guid: 525eadc4f85d0c947bb998c6d53c671f,
         type: 3}
       propertyPath: m_Name
@@ -3221,8 +3411,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4393584114982952174, guid: 525eadc4f85d0c947bb998c6d53c671f,
         type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4393584114982952174, guid: 525eadc4f85d0c947bb998c6d53c671f,
+        type: 3}
       propertyPath: m_TagString
       value: Candle
+      objectReference: {fileID: 0}
+    - target: {fileID: 6391102682032505150, guid: 525eadc4f85d0c947bb998c6d53c671f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
