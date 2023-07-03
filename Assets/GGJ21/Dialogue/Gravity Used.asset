@@ -17,4 +17,5 @@ MonoBehaviour:
   - Oh. Well done I suppose? You incorporated gravity. I din't think of that outcome.
   - Don't do anything stupid. I'll get something for the pain you must feel.
   wwiseEvents:
-  - Play_Gravity
+  - Play_Gravity_1
+  - Play_Gravity_2
