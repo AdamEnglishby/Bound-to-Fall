@@ -8,7 +8,7 @@ public class TextBox : ScriptableObject
 {
 
     [HideInInspector] public bool isShown;
-    public string[] lines;
+    public string[] lines, wwiseEvents;
     private int _currentLine;
 
     public void Show(TypewriterByCharacter text)
@@ -16,6 +16,10 @@ public class TextBox : ScriptableObject
         text.gameObject.SetActive(true);
         isShown = true;
         _currentLine = 0;
+        if (wwiseEvents.GetValue(_currentLine) != null)
+        {
+            AkSoundEngine.PostEvent(wwiseEvents[_currentLine], text.gameObject);
+        }
         text.GetComponent<TMP_Text>().text = lines[_currentLine] + " <wave a=0.25>▼</wave>";
     }
 
@@ -31,6 +35,10 @@ public class TextBox : ScriptableObject
         if (HasNext)
         {
             _currentLine++;
+            if (wwiseEvents.GetValue(_currentLine) != null)
+            {
+                AkSoundEngine.PostEvent(wwiseEvents[_currentLine], text.gameObject);
+            }
             text.GetComponent<TMP_Text>().text = lines[_currentLine] + " <wave a=0.25>▼</wave>";
         }
     }

@@ -10,12 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 77e640aaa0c5455883e2ecc15a0e5e34, type: 3}
-  m_Name: Trying to Escape
+  m_Name: Gravity Used
   m_EditorClassIdentifier: 
   isShown: 0
   lines:
-  - Are you trying to escape?
-  - '*sigh* Honestly, you are beyond my help at times. It is just a harness and it
-    cannot be that bad.'
+  - Oh. Well done I suppose? You incorporated gravity. I din't think of that outcome.
+  - Don't do anything stupid. I'll get something for the pain you must feel.
   wwiseEvents:
-  - Play_TryingToEscape
+  - Play_Gravity

@@ -22,10 +22,10 @@ public class InputHandler : MonoBehaviour
     private float _mashValue ;
     private bool _hasJacket = true;
 
-    private bool _escapeStarted = false;
-    public TextBox onEscapeStarted, onEscaped;
+    private bool _escapeStarted;
+    public TextBox onEscapeStarted, onEscaped, onFirstFall;
 
-    private bool gravityPlayed = false;
+    private bool _gravityPlayed;
 
     private static event Action<InputValue> PrimaryButtonPressed;
 
@@ -61,13 +61,13 @@ public class InputHandler : MonoBehaviour
         {
             if (_escapeStarted) return;
             
-            AkSoundEngine.PostEvent("Play_TryingToEscape", gameObject);
+            // AkSoundEngine.PostEvent("Play_TryingToEscape", gameObject);
             Dialogue.Show(onEscapeStarted);
             _escapeStarted = true;
         };
         OnEscaped += () =>
         {
-            AkSoundEngine.PostEvent("Play_Escaped", gameObject);
+            // AkSoundEngine.PostEvent("Play_Escaped", gameObject);
             Dialogue.Show(onEscaped);
         };
     }
@@ -154,9 +154,10 @@ public class InputHandler : MonoBehaviour
             if (_downVelocity >= maxVelocity)
             {
                 _downVelocity += gravity;
-                if (!gravityPlayed) {
-                    gravityPlayed = true;
-                    AkSoundEngine.PostEvent("Play_Gravity", gameObject);
+                if (!_gravityPlayed) {
+                    _gravityPlayed = true;
+                    Dialogue.Show(onFirstFall);
+                    // AkSoundEngine.PostEvent("Play_Gravity", gameObject);
                 }
             }
         }
