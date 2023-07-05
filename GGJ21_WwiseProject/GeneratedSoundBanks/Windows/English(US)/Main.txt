@@ -2,6 +2,8 @@ Event	ID	Name			Wwise Object Path	Notes
 	205457718	Reset_OpeningConversation			\Default Work Unit\Dialogue\Reset_OpeningConversation	
 	1141801156	Play_Gravity			\Default Work Unit\Dialogue\Play_Gravity	
 	1315926409	Play_TryingToEscape			\Default Work Unit\Dialogue\Play_TryingToEscape	
+	2257219352	Play_OpeningB			\Default Work Unit\Dialogue\Play_OpeningB	
+	2257219355	Play_OpeningA			\Default Work Unit\Dialogue\Play_OpeningA	
 	2837384057	Stop_Music			\Default Work Unit\Music\Stop_Music	
 	2932040671	Play_Music			\Default Work Unit\Music\Play_Music	
 	2951119341	Play_Escaped			\Default Work Unit\Dialogue\Play_Escaped	
@@ -17,14 +19,16 @@ State	ID	Name	State Group			Notes
 	3604647259	MainMenu	Gameplay			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	43517553	5_3_BoundToFall	C:\Users\david\Documents\Composition\Freelance\Game Jams\Galway Game Jam\GGJ21\GGJ21_WwiseProject\.cache\Windows\Voices\English(US)\5.3.BoundToFall_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\DialogueAM\Five\5_3_BoundToFall		257470
-	151572190	Escaped	C:\Users\david\Documents\Composition\Freelance\Game Jams\Galway Game Jam\GGJ21\GGJ21_WwiseProject\.cache\Windows\Voices\English(US)\4a.BoundToFall_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\DialogueAM\Escaped		452518
-	184101748	OpeningConversationA	C:\Users\david\Documents\Composition\Freelance\Game Jams\Galway Game Jam\GGJ21\GGJ21_WwiseProject\.cache\Windows\Voices\English(US)\3.(1st Half)BoundToFall_AB60BD2C.wem		\Actor-Mixer Hierarchy\Default Work Unit\DialogueAM\OpeningConversation\OpeningConversationA		92755
-	184101749	OpeningConversationB	C:\Users\david\Documents\Composition\Freelance\Game Jams\Galway Game Jam\GGJ21\GGJ21_WwiseProject\.cache\Windows\Voices\English(US)\3.(1st Half)BoundToFall_A4A9941B.wem		\Actor-Mixer Hierarchy\Default Work Unit\DialogueAM\OpeningConversation\OpeningConversationB		90820
-	248767242	GalwayGameJamKingBosbyMainLoop_90_1_I1_O3_M1	C:\Users\david\Documents\Composition\Freelance\Game Jams\Galway Game Jam\GGJ21\GGJ21_WwiseProject\.cache\Windows\SFX\GalwayGameJamKingBosbyMainLoop_90_1_I1_O3_M1_179463A7.wem		\Interactive Music Hierarchy\Default Work Unit\MusicContainer\Exploration\ExplorationLoop\GalwayGameJamKingBosbyMainLoop_90_1_I1_O3_M1		1191412
-	311516281	5_1_BoundToFall	C:\Users\david\Documents\Composition\Freelance\Game Jams\Galway Game Jam\GGJ21\GGJ21_WwiseProject\.cache\Windows\Voices\English(US)\5.1.BoundToFall_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\DialogueAM\Five\5_1_BoundToFall		175010
-	335546770	GalwayGameJamKingBosbyMainLoopIntro_90_1_I1_O1_M1	C:\Users\david\Documents\Composition\Freelance\Game Jams\Galway Game Jam\GGJ21\GGJ21_WwiseProject\.cache\Windows\SFX\GalwayGameJamKingBosbyMainLoopIntro_90_1_I1_O1_M1_179463A7.wem		\Interactive Music Hierarchy\Default Work Unit\MusicContainer\Transitions\ExplorationIntro\GalwayGameJamKingBosbyMainLoopIntro_90_1_I1_O1_M1		54329
-	614748940	5_2_BoundToFall	C:\Users\david\Documents\Composition\Freelance\Game Jams\Galway Game Jam\GGJ21\GGJ21_WwiseProject\.cache\Windows\Voices\English(US)\5.2.BoundToFall_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\DialogueAM\Five\5_2_BoundToFall		206841
-	879368521	TryingToEscape	C:\Users\david\Documents\Composition\Freelance\Game Jams\Galway Game Jam\GGJ21\GGJ21_WwiseProject\.cache\Windows\Voices\English(US)\3.(2nd Half)BoundToFall_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\DialogueAM\TryingToEscape		303601
-	949766450	Gravity	C:\Users\david\Documents\Composition\Freelance\Game Jams\Galway Game Jam\GGJ21\GGJ21_WwiseProject\.cache\Windows\Voices\English(US)\4b.BoundToFall_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\DialogueAM\Gravity		358221
+	36348684	1_ OpeningB	D:\GGJ21\GGJ21_WwiseProject\.cache\Windows\Voices\English(US)\1. OpeningB_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\1_ OpeningB		85104
+	43517553	5_3_BoundToFall	D:\GGJ21\GGJ21_WwiseProject\.cache\Windows\Voices\English(US)\5.3.BoundToFall_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\DialogueAM\Five\5_3_BoundToFall		257470
+	151572190	Escaped	D:\GGJ21\GGJ21_WwiseProject\.cache\Windows\Voices\English(US)\4a.BoundToFall_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\DialogueAM\Escaped		452518
+	184101748	OpeningConversationA	D:\GGJ21\GGJ21_WwiseProject\.cache\Windows\Voices\English(US)\3.(1st Half)BoundToFall_AB60BD2C.wem		\Actor-Mixer Hierarchy\Default Work Unit\DialogueAM\OpeningConversation\OpeningConversationA		92755
+	184101749	OpeningConversationB	D:\GGJ21\GGJ21_WwiseProject\.cache\Windows\Voices\English(US)\3.(1st Half)BoundToFall_A4A9941B.wem		\Actor-Mixer Hierarchy\Default Work Unit\DialogueAM\OpeningConversation\OpeningConversationB		90820
+	248767242	GalwayGameJamKingBosbyMainLoop_90_1_I1_O3_M1	D:\GGJ21\GGJ21_WwiseProject\.cache\Windows\SFX\GalwayGameJamKingBosbyMainLoop_90_1_I1_O3_M1_179463A7.wem		\Interactive Music Hierarchy\Default Work Unit\MusicContainer\Exploration\ExplorationLoop\GalwayGameJamKingBosbyMainLoop_90_1_I1_O3_M1		1191412
+	311516281	5_1_BoundToFall	D:\GGJ21\GGJ21_WwiseProject\.cache\Windows\Voices\English(US)\5.1.BoundToFall_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\DialogueAM\Five\5_1_BoundToFall		175010
+	335546770	GalwayGameJamKingBosbyMainLoopIntro_90_1_I1_O1_M1	D:\GGJ21\GGJ21_WwiseProject\.cache\Windows\SFX\GalwayGameJamKingBosbyMainLoopIntro_90_1_I1_O1_M1_179463A7.wem		\Interactive Music Hierarchy\Default Work Unit\MusicContainer\Transitions\ExplorationIntro\GalwayGameJamKingBosbyMainLoopIntro_90_1_I1_O1_M1		54329
+	578821250	1_ OpeningA	D:\GGJ21\GGJ21_WwiseProject\.cache\Windows\Voices\English(US)\1. OpeningA_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\1_ OpeningA		94425
+	614748940	5_2_BoundToFall	D:\GGJ21\GGJ21_WwiseProject\.cache\Windows\Voices\English(US)\5.2.BoundToFall_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\DialogueAM\Five\5_2_BoundToFall		206841
+	879368521	TryingToEscape	D:\GGJ21\GGJ21_WwiseProject\.cache\Windows\Voices\English(US)\3.(2nd Half)BoundToFall_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\DialogueAM\TryingToEscape		303601
+	949766450	Gravity	D:\GGJ21\GGJ21_WwiseProject\.cache\Windows\Voices\English(US)\4b.BoundToFall_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\DialogueAM\Gravity		358221
 

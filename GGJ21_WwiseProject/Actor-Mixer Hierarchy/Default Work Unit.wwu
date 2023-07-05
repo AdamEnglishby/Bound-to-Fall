@@ -281,6 +281,71 @@
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>
+				<ActorMixer Name="Dialogue" ID="{DC1E5D06-D9CE-4924-BA31-12E860563205}" ShortID="29594378">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E351A503-EEBF-4FBA-A2FB-7E8EB50DDB27}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E325C396-C547-4A14-BB47-919EF9D4BDD9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="1_ OpeningA" ID="{A7F3EECA-4DA6-4A6A-82F4-F0F1A808073F}" ShortID="992844341">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E351A503-EEBF-4FBA-A2FB-7E8EB50DDB27}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E325C396-C547-4A14-BB47-919EF9D4BDD9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="1_ OpeningA" ID="{BBDE0403-47A4-46C7-AE63-F5F457A36CDE}">
+									<Language>English(US)</Language>
+									<AudioFile>1. OpeningA.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="578821250"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="1_ OpeningA" ID="{BBDE0403-47A4-46C7-AE63-F5F457A36CDE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="1_ OpeningB" ID="{C2A469D4-10C6-4323-8AA6-6799FE32DE2B}" ShortID="523103957">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E351A503-EEBF-4FBA-A2FB-7E8EB50DDB27}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E325C396-C547-4A14-BB47-919EF9D4BDD9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="1_ OpeningB" ID="{A88A72BB-C9BB-46D5-8DB1-DC90BA1AB993}">
+									<Language>English(US)</Language>
+									<AudioFile>1. OpeningB.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="36348684"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="1_ OpeningB" ID="{A88A72BB-C9BB-46D5-8DB1-DC90BA1AB993}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

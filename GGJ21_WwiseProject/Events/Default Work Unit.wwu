@@ -74,6 +74,28 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_OpeningA" ID="{0960E5D3-6353-4E98-B701-E89432F8C86E}">
+							<ChildrenList>
+								<Action Name="" ID="{BF988017-7A62-4207-BE7A-A99161165DB6}" ShortID="1066047732">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="1_ OpeningA" ID="{A7F3EECA-4DA6-4A6A-82F4-F0F1A808073F}" WorkUnitID="{5F3311F2-2361-4CEA-89E4-524D3D3BA4C4}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_OpeningB" ID="{C526E699-94CB-4D61-9ABB-D2CB03EFBDB5}">
+							<ChildrenList>
+								<Action Name="" ID="{32429521-C369-4BD5-B893-5E967B0F57EF}" ShortID="219901501">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="1_ OpeningB" ID="{C2A469D4-10C6-4323-8AA6-6799FE32DE2B}" WorkUnitID="{5F3311F2-2361-4CEA-89E4-524D3D3BA4C4}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Music" ID="{9F03E47A-A155-404E-A7F1-C17036FB95A6}" ShortID="915796742">

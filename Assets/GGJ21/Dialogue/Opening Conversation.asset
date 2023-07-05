@@ -15,4 +15,7 @@ MonoBehaviour:
   isShown: 0
   lines:
   - Hello my dear friend. Are you comfortable?
-  - I do hope the restraints are not too... restrictive. For you.
+  - I do hope the restraints are not too... restrictive.
+  wwiseEvents:
+  - Play_OpeningA
+  - Play_OpeningB

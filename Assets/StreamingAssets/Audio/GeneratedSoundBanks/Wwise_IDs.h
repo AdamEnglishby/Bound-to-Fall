@@ -17,6 +17,8 @@ namespace AK
         static const AkUniqueID PLAY_FIVE = 3082435314U;
         static const AkUniqueID PLAY_GRAVITY = 1141801156U;
         static const AkUniqueID PLAY_MUSIC = 2932040671U;
+        static const AkUniqueID PLAY_OPENINGA = 2257219355U;
+        static const AkUniqueID PLAY_OPENINGB = 2257219352U;
         static const AkUniqueID PLAY_OPENINGCONVERSATION = 4286341251U;
         static const AkUniqueID PLAY_TRYINGTOESCAPE = 1315926409U;
         static const AkUniqueID RESET_OPENINGCONVERSATION = 205457718U;
