@@ -16,7 +16,7 @@ public class TextBox : ScriptableObject
         text.gameObject.SetActive(true);
         isShown = true;
         _currentLine = 0;
-        if (wwiseEvents.GetValue(_currentLine) != null)
+        if (wwiseEvents.Length > _currentLine)
         {
             AkSoundEngine.PostEvent(wwiseEvents[_currentLine], text.gameObject);
         }
